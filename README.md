@@ -36,12 +36,20 @@ npx skills add https://github.com/VictorCao945/ai-creator-index --skill explore-
 
 可查询：
 
-- 某位创作者提过哪些产品、播客、文章或项目；
-- 只返回 A 级来源；
-- 最近 90 天或全历史高热内容；
-- 原始链接、证据等级、验证状态和最后核验日期。
+- 按创作者查询提过的产品、播客、文章、开源项目、论文或事件；
+- 按主题或关键词查找创作者、代表内容和提及对象；
+- 只返回 A 级来源，或明确查看 B/C 级待核验线索；
+- 查看最近 90 天、全历史内容及对应热度排序；
+- 返回相关笔记、原始来源、证据等级、验证状态和最后核验日期；
+- 使用 `--status` 查看数据版本，使用 `--refresh` 从 GitHub 清单拉取并校验最新数据。
 
-Skill 只读，不登录、不抓取、不发布，也不模仿创作者风格。使用时会检查 GitHub 版本清单并校验 SHA256；网络不可用时明确回退到安装时快照。
+Skill 只读，不登录、不抓取、不发布，也不模仿创作者风格。其远程清单已经指向本仓库的 `generated/manifest.json`，刷新时会下载数据并校验 SHA256；网络不可用时明确回退到安装时快照。
+
+当前状态：
+
+- **GitHub / Codex Skill：已连通并通过刷新与查询测试。**
+- **小红书 RED Skill：尚未完成平台上传、审核和 Skill ID 验证。** `xhs-output/001-xiaogai/publish/red-skill.md` 目前是发布挂载清单，不代表小红书端已经上线。
+- **GitHub Pages：仓库内容已具备部署工作流，但公开 Pages 地址尚未启用，启用前访问会返回 404。** 仓库所有者需在 `Settings → Pages → Build and deployment → Source` 手动选择 **GitHub Actions**，再重新运行 `Deploy GitHub Pages`；工作流令牌无权代替所有者完成首次启用。
 
 ## 数据维护
 
@@ -67,10 +75,10 @@ data/index.yaml
 
 ## 参与
 
-- [推荐下一位创作者](../../issues/new?template=creator-nomination.yml)
-- [信息纠错](../../issues/new?template=creator-correction.yml)
-- [报告失效链接](../../issues/new?template=broken-link.yml)
-- [博主本人补充](../../issues/new?template=creator-self-submission.yml)
+- [推荐下一位创作者](https://github.com/VictorCao945/ai-creator-index/issues/new?template=creator-nomination.yml)
+- [信息纠错](https://github.com/VictorCao945/ai-creator-index/issues/new?template=creator-correction.yml)
+- [报告失效链接](https://github.com/VictorCao945/ai-creator-index/issues/new?template=broken-link.yml)
+- [博主本人补充](https://github.com/VictorCao945/ai-creator-index/issues/new?template=creator-self-submission.yml)
 
 博主本人提交与编辑核验分开记录，不自动设置未经验证的“本人认证”。
 

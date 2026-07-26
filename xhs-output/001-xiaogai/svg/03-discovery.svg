@@ -6,20 +6,23 @@
   <circle cx="104" cy="89" r="34" fill="none" stroke="#DDD8CC" stroke-width="2"/>
   <text x="154" y="86" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="28" font-weight="760" fill="#111211">啊哈先生</text>
   <text x="154" y="116" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="20" font-weight="500" fill="#66645D">博主档案 · 001</text>
-
-    <text x="70" y="236" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="42" font-weight="800" fill="#F2A014">总结</text>
-    <text x="70" y="354" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="58" font-weight="770" fill="#111211">我关注小盖的3个原因</text>
-    <line x1="70" y1="552" x2="210" y2="552" stroke="#F2A014" stroke-width="7" stroke-linecap="round"/>
-    <text x="70" y="635" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="36" font-weight="500" fill="#111211">不是因为他覆盖了多少热门工具，而是因为他持续完成了</text><text x="70" y="692" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="36" font-weight="500" fill="#111211">三件对读者真正有价值的事。</text>
-    <rect x="70" y="810" width="940" height="260" rx="10" fill="#FFFFFF"/>
-    <circle cx="118" cy="868" r="7" fill="#0B8795"/>
-      <text x="148" y="878" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="650" fill="#111211">选材好：知道去哪里找高密度信息</text><circle cx="118" cy="936" r="7" fill="#0B8795"/>
-      <text x="148" y="946" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="650" fill="#111211">提炼强：把复杂材料变成清晰判断</text><circle cx="118" cy="1004" r="7" fill="#F2A014"/>
-      <text x="148" y="1014" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="650" fill="#111211">有行动感：把科技拉回工作、学习和选择</text>
-    <rect x="70" y="1102" width="940" height="126" rx="10" fill="#DDEFF0"/>
-    <text x="102" y="1142" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="21" font-weight="800" fill="#0B8795">我正在做的事</text>
-    <text x="102" y="1180" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="760" fill="#111211">持续整理我关注的 100 位 AI 博主档案</text>
-    <text x="102" y="1214" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="21" font-weight="500" fill="#66645D">后续档案与更新，可通过本篇挂载的 Skill 跟进</text>
-    <text x="70" y="1308" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="40" font-weight="800" fill="#F2A014">欢迎你持续关注并提交你的宝藏博主！</text>
+<text x="1004" y="1390" text-anchor="end" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="28" font-weight="800" fill="#0B8795">03</text>
+    <text x="70" y="236" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="41" font-weight="800" fill="#F2A014">第一种能力｜会找</text>
+    <text x="70" y="342" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="56" font-weight="760" fill="#111211">他总能从不同平台，找到值得看的原</text><text x="70" y="418" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="56" font-weight="760" fill="#111211">材料</text>
+    <line x1="70" y1="504" x2="210" y2="504" stroke="#F2A014" stroke-width="7" stroke-linecap="round"/>
+    <text x="70" y="556" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="37" font-weight="500" fill="#111211">从OpenClaw的新玩法，到Notion产品负责人的播客、</text><text x="70" y="614" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="37" font-weight="500" fill="#111211">Anthropic的学生访谈，再到Agent治理论坛，他关注的</text><text x="70" y="672" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="37" font-weight="500" fill="#111211">不是单一平台，而是“哪里正在产生新的判断”。</text>
+    <rect x="70" y="774" width="438" height="96" rx="8" fill="#FFFFFF"/>
+      <circle cx="98" cy="818" r="7" fill="#0B8795"/>
+      <text x="122" y="826" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="700" fill="#111211">OpenClaw：垂直数字员工</text><rect x="540" y="774" width="438" height="96" rx="8" fill="#FFFFFF"/>
+      <circle cx="568" cy="818" r="7" fill="#F2A014"/>
+      <text x="592" y="826" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="700" fill="#111211">Lenny&#39;s：Notion产品负责人</text><rect x="70" y="886" width="438" height="96" rx="8" fill="#FFFFFF"/>
+      <circle cx="98" cy="930" r="7" fill="#0B8795"/>
+      <text x="122" y="938" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="700" fill="#111211">Anthropic：学生如何用AI</text><rect x="540" y="886" width="438" height="96" rx="8" fill="#FFFFFF"/>
+      <circle cx="568" cy="930" r="7" fill="#F2A014"/>
+      <text x="592" y="938" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="700" fill="#111211">数字中国：Agent治理论坛</text>
+    <rect x="70" y="1203" width="940" height="58" rx="8" fill="#DDEFF0"/>
+  <text x="94" y="1242" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="23" font-weight="650" fill="#176A73">常见来源｜X、播客、直播、演讲、官方发布</text>
+    <line x1="70" y1="1298" x2="1010" y2="1298" stroke="#DDD8CC"/>
+  <text x="70" y="1340" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="500" fill="#66645D">对读者来说，他省掉的是在不同平台之间来回寻找、筛选和判断的时间。</text>
 
 </svg>

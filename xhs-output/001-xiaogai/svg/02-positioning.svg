@@ -6,20 +6,25 @@
   <circle cx="104" cy="89" r="34" fill="none" stroke="#DDD8CC" stroke-width="2"/>
   <text x="154" y="86" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="28" font-weight="760" fill="#111211">啊哈先生</text>
   <text x="154" y="116" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="20" font-weight="500" fill="#66645D">博主档案 · 001</text>
-
-    <text x="70" y="236" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="42" font-weight="800" fill="#F2A014">总结</text>
-    <text x="70" y="354" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="58" font-weight="770" fill="#111211">我关注小盖的3个原因</text>
-    <line x1="70" y1="552" x2="210" y2="552" stroke="#F2A014" stroke-width="7" stroke-linecap="round"/>
-    <text x="70" y="635" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="36" font-weight="500" fill="#111211">不是因为他覆盖了多少热门工具，而是因为他持续完成了</text><text x="70" y="692" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="36" font-weight="500" fill="#111211">三件对读者真正有价值的事。</text>
-    <rect x="70" y="810" width="940" height="260" rx="10" fill="#FFFFFF"/>
-    <circle cx="118" cy="868" r="7" fill="#0B8795"/>
-      <text x="148" y="878" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="650" fill="#111211">选材好：知道去哪里找高密度信息</text><circle cx="118" cy="936" r="7" fill="#0B8795"/>
-      <text x="148" y="946" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="650" fill="#111211">提炼强：把复杂材料变成清晰判断</text><circle cx="118" cy="1004" r="7" fill="#F2A014"/>
-      <text x="148" y="1014" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="650" fill="#111211">有行动感：把科技拉回工作、学习和选择</text>
-    <rect x="70" y="1102" width="940" height="126" rx="10" fill="#DDEFF0"/>
-    <text x="102" y="1142" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="21" font-weight="800" fill="#0B8795">我正在做的事</text>
-    <text x="102" y="1180" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="760" fill="#111211">持续整理我关注的 100 位 AI 博主档案</text>
-    <text x="102" y="1214" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="21" font-weight="500" fill="#66645D">后续档案与更新，可通过本篇挂载的 Skill 跟进</text>
-    <text x="70" y="1308" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="40" font-weight="800" fill="#F2A014">欢迎你持续关注并提交你的宝藏博主！</text>
+<text x="1004" y="1390" text-anchor="end" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="28" font-weight="800" fill="#0B8795">02</text>
+    <text x="70" y="236" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="42" font-weight="800" fill="#F2A014">先说结论</text>
+    <text x="70" y="356" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="58" font-weight="760" fill="#111211">他不是“AI工具号”，更像中文科技</text><text x="70" y="434" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="58" font-weight="760" fill="#111211">圈的信息策展人</text>
+    <line x1="70" y1="548" x2="212" y2="548" stroke="#F2A014" stroke-width="7" stroke-linecap="round"/>
+    <text x="70" y="630" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="38" font-weight="500" fill="#111211">他的内容起点很少是“又出了一个新工具”，而是先去X、</text><text x="70" y="688" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="38" font-weight="500" fill="#111211">播客、直播和演讲里找到值得看的材料，再替中文读者筛</text><text x="70" y="746" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="38" font-weight="500" fill="#111211">出其中最有价值的一个判断。</text>
+    <rect x="70" y="790" width="286" height="214" rx="10" fill="#FFFFFF"/>
+      <text x="98" y="874" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="58" font-weight="850" fill="#0B8795">828</text>
+      <text x="98" y="930" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="500" fill="#66645D">我实际遍历的公开内容</text><rect x="388" y="790" width="286" height="214" rx="10" fill="#FFFFFF"/>
+      <text x="416" y="874" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="58" font-weight="850" fill="#F2A014">103</text>
+      <text x="416" y="930" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="500" fill="#66645D">近3个月发布内容</text><rect x="706" y="790" width="286" height="214" rx="10" fill="#FFFFFF"/>
+      <text x="734" y="874" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="58" font-weight="850" fill="#0B8795">1.4M</text>
+      <text x="734" y="930" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="500" fill="#66645D">主页赞与收藏</text>
+    <path d="M110 1100 C260 1030,360 1170,510 1100 S760 1025,940 1090" fill="none" stroke="#0B8795" stroke-width="4"/>
+    <text x="92" y="1170" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="26" font-weight="750" fill="#0B8795">发现</text>
+    <text x="252" y="1170" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="26" font-weight="500" fill="#66645D">→</text>
+    <text x="360" y="1170" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="26" font-weight="750" fill="#0B8795">转述</text>
+    <text x="550" y="1170" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="26" font-weight="500" fill="#66645D">→</text>
+    <text x="690" y="1170" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="26" font-weight="750" fill="#0B8795">提炼</text>
+    <line x1="70" y1="1286" x2="1010" y2="1286" stroke="#DDD8CC"/>
+  <text x="70" y="1328" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="500" fill="#66645D">关注他的价值，不是知道更多工具，而是更快找到值得继续看的东西。</text>
 
 </svg>

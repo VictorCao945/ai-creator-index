@@ -10,10 +10,10 @@ const WIDTH = 1080;
 const HEIGHT = 1440;
 const OUT = resolve(ROOT, 'xhs-output/001-xiaogai');
 const content = YAML.parse(await readFile(resolve(ROOT, 'content/xhs-001-xiaogai.yaml'), 'utf8'));
-const { data, config } = await loadProject();
+const { data } = await loadProject();
 const hydrated = hydrate(data);
 const logo = (await readFile(resolve(ROOT, 'assets/brand/aha-logo.png'))).toString('base64');
-const repoUrl = `https://github.com/${config.owner}/${config.repository}`;
+const creatorAvatar = (await readFile(resolve(ROOT, 'assets/creators/xiaogai/avatar.jpg'))).toString('base64');
 
 const C = {
   bg: '#F8F7F0',
@@ -32,7 +32,7 @@ function xml(value = '') {
 }
 
 function wrap(text, maxUnits) {
-  const tokens = String(text).match(/[A-Za-z0-9+/.·—“”「」]+|[\u3400-\u9fff]|[，。；：！？、（）]/gu) || [];
+  const tokens = String(text).match(/[A-Za-z0-9+'/.·—“”「」]+|[\u3400-\u9fff]|[，。；：！？、（）｜]/gu) || [];
   const lines = [];
   let line = '';
   let units = 0;
@@ -63,48 +63,56 @@ function text(value, x, y, options = {}) {
   return lines([value], x, y, options);
 }
 
-function header(page) {
+function header(page, showPageNumber = true) {
   return `<defs><clipPath id="avatar"><circle cx="104" cy="89" r="34"/></clipPath></defs>
   <image href="data:image/png;base64,${logo}" x="70" y="55" width="68" height="68" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatar)"/>
   <circle cx="104" cy="89" r="34" fill="none" stroke="${C.faint}" stroke-width="2"/>
   ${text('啊哈先生', 154, 86, { size: 28, weight: 760 })}
   ${text(`博主档案 · 001`, 154, 116, { size: 20, color: C.muted })}
-  ${text(String(page).padStart(2, '0'), 1004, 1390, { size: 28, weight: 800, color: C.teal, anchor: 'end' })}`;
+${showPageNumber ? text(String(page).padStart(2, '0'), 1004, 1390, { size: 28, weight: 800, color: C.teal, anchor: 'end' }) : ''}`;
 }
 
-function shell(body, page, extra = '') {
+function shell(body, page, extra = '', showPageNumber = true) {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}">
 <rect width="${WIDTH}" height="${HEIGHT}" fill="${C.bg}"/>
-${extra}${page ? header(page) : ''}${body}
-</svg>`;
+${extra}${page ? header(page, showPageNumber) : ''}${body}
+</svg>`.replace(/[ \t]+$/gm, '');
 }
 
-function evidence(textValue, y = 1280) {
-  return `<rect x="70" y="${y - 35}" width="940" height="58" rx="8" fill="${C.orangeSoft}"/>
-  ${text(textValue, 94, y + 4, { size: 23, weight: 650, color: '#805A12' })}`;
+function sourceNote(textValue, y = 1280) {
+  if (!textValue) return '';
+  return `<rect x="70" y="${y - 35}" width="940" height="58" rx="8" fill="${C.tealSoft}"/>
+  ${text(textValue, 94, y + 4, { size: 23, weight: 650, color: '#176A73' })}`;
 }
 
 function footer(textValue, y = 1360) {
+  if (!textValue) return '';
   return `<line x1="70" y1="${y - 42}" x2="1010" y2="${y - 42}" stroke="${C.faint}"/>
-  ${lines(wrap(textValue, 38), 70, y, { size: 22, lineHeight: 31, color: C.muted })}`;
+  ${lines(wrap(textValue, 36), 70, y, { size: 25, lineHeight: 35, color: C.muted })}`;
 }
 
 function cover() {
   return shell(`
     <rect x="0" y="0" width="18" height="1440" fill="${C.orange}"/>
-    <defs><clipPath id="cover-avatar"><circle cx="112" cy="101" r="42"/></clipPath></defs>
+    <defs>
+      <clipPath id="cover-avatar"><circle cx="112" cy="101" r="42"/></clipPath>
+      <clipPath id="creator-avatar"><circle cx="184" cy="745" r="76"/></clipPath>
+    </defs>
     <image href="data:image/png;base64,${logo}" x="70" y="59" width="84" height="84" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-avatar)"/>
     ${text('啊哈先生', 176, 98, { size: 31, weight: 780 })}
     ${text(content.cover.kicker, 176, 134, { size: 21, color: C.muted })}
-    ${text('CONTENT INTELLIGENCE', 70, 274, { size: 20, weight: 800, color: C.teal })}
-    ${lines(content.cover.lines, 70, 430, { size: 78, lineHeight: 106, weight: 820, family: 'serif' })}
-    <line x1="70" y1="770" x2="230" y2="770" stroke="${C.orange}" stroke-width="8" stroke-linecap="round"/>
-    <rect x="70" y="858" width="940" height="318" rx="8" fill="${C.paper}" opacity=".72"/>
-    ${text('5 条继续深挖的线索', 108, 928, { size: 29, weight: 800, color: C.orange })}
-    ${lines(['垂直数字员工  ·  先采访后执行', 'Codex 知识工作  ·  Agency 与 Taste', 'Agent 权限、额度与审计'], 108, 1002, { size: 34, lineHeight: 64, family: 'serif' })}
-    ${text('数据快照 2026-07-26', 70, 1368, { size: 23, color: C.muted })}
-    ${text('01', 1008, 1368, { size: 28, weight: 800, color: C.teal, anchor: 'end' })}
+    ${text('CREATOR PROFILE', 70, 274, { size: 22, weight: 800, color: C.teal })}
+    ${lines(content.cover.lines, 70, 404, { size: 72, lineHeight: 98, weight: 820, family: 'serif' })}
+    <rect x="70" y="626" width="940" height="238" rx="12" fill="${C.paper}" opacity=".88"/>
+    <image href="data:image/jpeg;base64,${creatorAvatar}" x="108" y="669" width="152" height="152" preserveAspectRatio="xMidYMid slice" clip-path="url(#creator-avatar)"/>
+    ${text(content.cover.profile.name, 296, 690, { size: 34, weight: 820, color: C.ink })}
+    ${lines(content.cover.profile.lines, 296, 738, { size: 25, lineHeight: 39, weight: 520, color: C.muted })}
+    <line x1="70" y1="916" x2="230" y2="916" stroke="${C.orange}" stroke-width="8" stroke-linecap="round"/>
+    <rect x="70" y="970" width="940" height="242" rx="8" fill="${C.paper}" opacity=".72"/>
+    ${text(content.cover.panel_title, 108, 1028, { size: 29, weight: 800, color: C.orange })}
+    ${lines(content.cover.panel_items, 108, 1082, { size: 29, lineHeight: 50 })}
+    ${text('AI 创作者档案库 · CREATOR 001', 70, 1368, { size: 23, color: C.muted })}
   `, 0);
 }
 
@@ -116,10 +124,10 @@ function statCard(card) {
       ${text(item.label, x + 28, 930, { size: 25, color: C.muted })}`;
   }).join('');
   return shell(`
-    ${text(card.eyebrow, 70, 236, { size: 27, weight: 800, color: C.orange })}
-    ${lines(wrap(card.title, 16), 70, 356, { size: 62, lineHeight: 83, weight: 760, family: 'serif' })}
+    ${text(card.eyebrow, 70, 236, { size: 42, weight: 800, color: C.orange })}
+    ${lines(wrap(card.title, 17), 70, 356, { size: 58, lineHeight: 78, weight: 760, family: 'serif' })}
     <line x1="70" y1="548" x2="212" y2="548" stroke="${C.orange}" stroke-width="7" stroke-linecap="round"/>
-    ${lines(wrap(card.body, 25), 70, 630, { size: 38, lineHeight: 58, family: 'serif', color: C.ink })}
+    ${lines(wrap(card.body, 25), 70, 630, { size: 38, lineHeight: 58, color: C.ink })}
     ${stats}
     <path d="M110 1100 C260 1030,360 1170,510 1100 S760 1025,940 1090" fill="none" stroke="${C.teal}" stroke-width="4"/>
     ${text('发现', 92, 1170, { size: 26, weight: 750, color: C.teal })}
@@ -140,70 +148,79 @@ function bulletCard(card) {
     const col = i % 2;
     const row = Math.floor(i / 2);
     const x = 70 + col * 470;
-    const y = panelY + 55 + row * 108;
-    return `<rect x="${x}" y="${y - 44}" width="438" height="82" rx="8" fill="${C.paper}"/>
-      <circle cx="${x + 28}" cy="${y - 3}" r="7" fill="${i % 2 ? C.orange : C.teal}"/>
-      ${text(item, x + 52, y + 7, { size: 27, weight: 700 })}`;
+    const y = panelY + row * 112;
+    const itemLines = wrap(item, 14);
+    return `<rect x="${x}" y="${y}" width="438" height="96" rx="8" fill="${C.paper}"/>
+      <circle cx="${x + 28}" cy="${y + 44}" r="7" fill="${i % 2 ? C.orange : C.teal}"/>
+      ${lines(itemLines, x + 52, y + (itemLines.length > 1 ? 34 : 52), { size: 25, lineHeight: 32, weight: 700 })}`;
   }).join('');
   return shell(`
-    ${text(card.eyebrow, 70, 236, { size: 27, weight: 800, color: C.orange })}
+    ${text(card.eyebrow, 70, 236, { size: 41, weight: 800, color: C.orange })}
     ${lines(titleLines, 70, 342, { size: 56, lineHeight: 76, weight: 760, family: 'serif' })}
     <line x1="70" y1="${bodyY - 52}" x2="210" y2="${bodyY - 52}" stroke="${C.orange}" stroke-width="7" stroke-linecap="round"/>
-    ${lines(bodyLines, 70, bodyY, { size: 37, lineHeight: 58, family: 'serif' })}
+    ${lines(bodyLines, 70, bodyY, { size: 37, lineHeight: 58 })}
     ${bulletLines}
-    ${evidence(card.evidence, 1238)}
+    ${sourceNote(card.source_note, 1238)}
     ${footer(card.footer, 1340)}
   `, card.page);
 }
 
 function promptCard(card) {
   const titleLines = wrap(card.title, 16);
+  const bodyY = 330 + titleLines.length * 74 + 56;
+  const bodyLines = wrap(card.body, 25);
+  const panelY = bodyY + bodyLines.length * 56 + 42;
   return shell(`
-    ${text(card.eyebrow, 70, 236, { size: 27, weight: 800, color: C.orange })}
-    ${lines(titleLines, 70, 360, { size: 68, lineHeight: 88, weight: 800, family: 'serif' })}
-    <line x1="70" y1="474" x2="210" y2="474" stroke="${C.orange}" stroke-width="7" stroke-linecap="round"/>
-    ${lines(wrap(card.body, 25), 70, 558, { size: 37, lineHeight: 58, family: 'serif' })}
-    <rect x="70" y="790" width="940" height="340" rx="12" fill="${C.paper}"/>
-    ${text('访谈协议', 112, 852, { size: 25, weight: 800, color: C.teal })}
-    ${card.quote.map((item, i) => `<circle cx="120" cy="${922 + i * 76}" r="20" fill="${i === 0 ? C.orange : C.teal}"/>
-      ${text(i + 1, 120, 931 + i * 76, { size: 20, weight: 800, color: '#fff', anchor: 'middle' })}
-      ${text(item, 164, 932 + i * 76, { size: 31, weight: 650 })}`).join('')}
-    ${evidence(card.evidence, 1212)}
+    ${text(card.eyebrow, 70, 236, { size: 41, weight: 800, color: C.orange })}
+    ${lines(titleLines, 70, 330, { size: 56, lineHeight: 74, weight: 800, family: 'serif' })}
+    <line x1="70" y1="${bodyY - 54}" x2="210" y2="${bodyY - 54}" stroke="${C.orange}" stroke-width="7" stroke-linecap="round"/>
+    ${lines(bodyLines, 70, bodyY, { size: 36, lineHeight: 56 })}
+    <rect x="70" y="${panelY}" width="940" height="292" rx="12" fill="${C.paper}"/>
+    ${text(card.panel_label, 112, panelY + 58, { size: 25, weight: 800, color: C.teal })}
+    ${card.quote.map((item, i) => `<circle cx="120" cy="${panelY + 116 + i * 62}" r="18" fill="${i === 0 ? C.orange : C.teal}"/>
+      ${text(i + 1, 120, panelY + 124 + i * 62, { size: 18, weight: 800, color: '#fff', anchor: 'middle' })}
+      ${text(item, 164, panelY + 125 + i * 62, { size: 29, weight: 650 })}`).join('')}
+    ${sourceNote(card.source_note, 1212)}
     ${footer(card.footer, 1330)}
   `, card.page);
 }
 
 function podcastCard(card) {
-  const rings = [
-    { y: 810, label: 'AGENCY', desc: '主动发起，并承担结果', color: C.teal },
-    { y: 930, label: 'TASTE', desc: '知道什么叫“好”', color: C.orange },
-    { y: 1050, label: 'LEARNING', desc: '能解释 AI 做了什么', color: '#7868A8' },
-  ].map((item) => `<circle cx="118" cy="${item.y}" r="28" fill="${item.color}"/>
+  const titleLines = wrap(card.title, 16);
+  const bodyY = 330 + titleLines.length * 72 + 54;
+  const bodyLines = wrap(card.body, 25);
+  const ringStart = bodyY + bodyLines.length * 55 + 54;
+  const colors = [C.teal, C.orange, '#7868A8'];
+  const rings = card.concepts.map((item, index) => ({ ...item, y: ringStart + index * 104, color: colors[index] }))
+    .map((item) => `<circle cx="118" cy="${item.y}" r="28" fill="${item.color}"/>
     ${text(item.label, 172, item.y - 2, { size: 24, weight: 820, color: item.color })}
-    ${text(item.desc, 172, item.y + 36, { size: 29, family: 'serif' })}`).join('');
+    ${text(item.desc, 172, item.y + 36, { size: 29 })}`).join('');
   return shell(`
-    ${text(card.eyebrow, 70, 236, { size: 27, weight: 800, color: C.orange })}
-    ${lines(wrap(card.title, 16), 70, 342, { size: 55, lineHeight: 76, weight: 760, family: 'serif' })}
-    <line x1="70" y1="520" x2="210" y2="520" stroke="${C.orange}" stroke-width="7" stroke-linecap="round"/>
-    ${lines(wrap(card.body, 25), 70, 605, { size: 36, lineHeight: 57, family: 'serif' })}
+    ${text(card.eyebrow, 70, 236, { size: 41, weight: 800, color: C.orange })}
+    ${lines(titleLines, 70, 330, { size: 54, lineHeight: 72, weight: 760, family: 'serif' })}
+    <line x1="70" y1="${bodyY - 54}" x2="210" y2="${bodyY - 54}" stroke="${C.orange}" stroke-width="7" stroke-linecap="round"/>
+    ${lines(bodyLines, 70, bodyY, { size: 35, lineHeight: 55 })}
     ${rings}
-    ${evidence(card.evidence, 1215)}
+    ${sourceNote(card.source_note, 1215)}
     ${footer(card.footer, 1330)}
   `, card.page);
 }
 
 function finalCard(card) {
   return shell(`
-    ${text(card.eyebrow, 70, 236, { size: 27, weight: 800, color: C.orange })}
-    ${lines(wrap(card.title, 16), 70, 354, { size: 59, lineHeight: 80, weight: 770, family: 'serif' })}
+    ${text(card.eyebrow, 70, 236, { size: 42, weight: 800, color: C.orange })}
+    ${lines(wrap(card.title, 17), 70, 354, { size: 58, lineHeight: 78, weight: 770, family: 'serif' })}
     <line x1="70" y1="552" x2="210" y2="552" stroke="${C.orange}" stroke-width="7" stroke-linecap="round"/>
-    ${lines(wrap(card.body, 25), 70, 635, { size: 36, lineHeight: 57, family: 'serif' })}
-    <rect x="70" y="844" width="940" height="290" rx="10" fill="${C.paper}"/>
-    ${card.bullets.map((item, i) => `<circle cx="118" cy="${912 + i * 78}" r="7" fill="${i === 2 ? C.orange : C.teal}"/>
-      ${text(item, 148, 922 + i * 78, { size: 28, weight: 650 })}`).join('')}
-    ${text(card.question, 70, 1272, { size: 52, weight: 800, family: 'serif', color: C.orange })}
-    ${text('完整链接与证据等级见 GitHub / Skill', 70, 1350, { size: 23, color: C.muted })}
-  `, card.page);
+    ${lines(wrap(card.body, 25), 70, 635, { size: 36, lineHeight: 57 })}
+    <rect x="70" y="810" width="940" height="260" rx="10" fill="${C.paper}"/>
+    ${card.bullets.map((item, i) => `<circle cx="118" cy="${868 + i * 68}" r="7" fill="${i === 2 ? C.orange : C.teal}"/>
+      ${text(item, 148, 878 + i * 68, { size: 27, weight: 650 })}`).join('')}
+    <rect x="70" y="1102" width="940" height="126" rx="10" fill="${C.tealSoft}"/>
+    ${text(card.project_label, 102, 1142, { size: 21, weight: 800, color: C.teal })}
+    ${text(card.project_title, 102, 1180, { size: 27, weight: 760 })}
+    ${text(card.skill_note, 102, 1214, { size: 21, color: C.muted })}
+    ${lines(wrap(card.question, 19), 70, 1308, { size: 40, lineHeight: 50, weight: 800, family: 'serif', color: C.orange })}
+  `, card.page, '', false);
 }
 
 const cards = [
@@ -222,7 +239,7 @@ for (const dir of ['svg', 'png', 'publish']) await mkdir(resolve(OUT, dir), { re
 
 const pngBuffers = [];
 for (let index = 0; index < cards.length; index++) {
-  const stem = `${String(index + 1).padStart(2, '0')}-${['cover', 'account-map', 'openclaw', 'interview-first', 'codex', 'podcasts', 'agent-security', 'summary'][index]}`;
+  const stem = `${String(index + 1).padStart(2, '0')}-${['cover', 'positioning', 'discovery', 'distillation', 'action', 'why-followed', 'start-here', 'summary'][index]}`;
   const svgPath = resolve(OUT, 'svg', `${stem}.svg`);
   const pngPath = resolve(OUT, 'png', `${stem}.png`);
   await writeFile(svgPath, cards[index]);
@@ -261,21 +278,50 @@ ${uniqueSources.map((source) => `| ${source.evidence_grade} | ${source.mention} 
 
 await Promise.all([
   writeFile(resolve(OUT, 'publish/title.md'), `# 发布标题\n\n## 最终选择\n\n${content.publish_title}\n\n## 备选标题\n\n${content.title_candidates.map((title) => `- ${title}`).join('\n')}\n`),
-  writeFile(resolve(OUT, 'publish/caption.md'), `# 发布正文\n\n${content.caption}\n\nGitHub 档案：${repoUrl}\n\n${content.tags.join(' ')}\n`),
+  writeFile(resolve(OUT, 'publish/caption.md'), `# 发布正文\n\n${content.caption}\n\n${content.tags.join(' ')}\n`),
+  writeFile(resolve(OUT, 'publish/ready-to-publish.md'), `# #001 小盖｜小红书待发布内容
+
+## 发布标题
+
+${content.publish_title}
+
+## 发布正文
+
+${content.caption}
+
+## 标签
+
+${content.tags.join(' ')}
+
+## 图片上传顺序
+
+1. 01-cover.png｜封面
+2. 02-positioning.png｜账号定位
+3. 03-discovery.png｜第一种能力：会找
+4. 04-distillation.png｜第二种能力：会炼
+5. 05-action.png｜第三种能力：会落地
+6. 06-why-followed.png｜受欢迎的原因
+7. 07-start-here.png｜代表内容入口
+8. 08-summary.png｜总结与互动
+
+图片目录：\`../png/\`
+
+## 发布操作
+
+- 在小红书发布页依次上传 8 张 PNG
+- 粘贴标题、正文和标签
+- 挂载「AI 创作者档案库」Skill
+- 如需关联小盖本人，请在 App 内选择正确账号后再 @
+- 发布前确认正文与图片中没有 GitHub URL、安装命令或核验术语
+- 检查 Skill 按钮显示为“下载 Skill”或“安装 Skill”
+`),
   writeFile(resolve(OUT, 'publish/sources.md'), sourcesMd),
   writeFile(resolve(OUT, 'publish/red-skill.md'), `# RED Skill 挂载说明
 
-1. 在小红书发布页选择可挂载的 RED Skill 组件。
-2. 展示并允许复制以下安装口令：
-
-\`\`\`bash
-npx skills add ${repoUrl} --skill explore-ai-creators
-\`\`\`
-
-3. 首版只分发安装口令。Skill 使用时检查 GitHub 清单，不宣称小红书会实时同步 GitHub。
-4. 发布前确认仓库已经公开，安装命令可以访问，正文中的 GitHub 链接已替换为真实个人账号地址。
-
-公开能力说明：https://www.ithome.com/0/962/201.htm
+1. 先在小红书完成「AI 创作者档案库」RED Skill 的上传与审核，再在发布页挂载；当前仓库内交付的是挂载说明，不等于平台已经发布成功。
+2. 对外按钮使用“下载 Skill”或“安装 Skill”，不展示仓库地址、安装命令和技术同步机制。
+3. Skill 内提供完整档案、原帖入口和更新说明；正文只提示读者从本篇笔记进入。
+4. 发布前确认正文与8张图片均不包含 GitHub URL。
 `),
 ]);
 
