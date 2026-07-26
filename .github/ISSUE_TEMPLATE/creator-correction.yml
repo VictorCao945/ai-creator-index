@@ -1,0 +1,30 @@
+name: 信息纠错
+description: 更正创作者、内容、热度、日期、摘要或证据等级。
+title: "[纠错] "
+labels: ["correction"]
+body:
+  - type: input
+    id: record
+    attributes:
+      label: 对应档案或记录 ID
+      placeholder: xiaogai / mention-codex / src-codex-app
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: 当前信息哪里不准确
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: 建议修改为
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 支持修改的公开来源
+    validations:
+      required: true

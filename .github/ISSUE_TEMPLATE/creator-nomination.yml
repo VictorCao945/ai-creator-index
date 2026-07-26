@@ -1,0 +1,31 @@
+name: 推荐下一位
+description: 推荐值得进入 AI 创作者档案库的公开账号。
+title: "[提名] "
+labels: ["nomination"]
+body:
+  - type: input
+    id: creator
+    attributes:
+      label: 创作者名称
+    validations:
+      required: true
+  - type: input
+    id: profile
+    attributes:
+      label: 公开主页链接
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: 为什么值得整理
+      description: 请说明主题、代表内容或你希望核验的线索。
+    validations:
+      required: true
+  - type: checkboxes
+    id: public
+    attributes:
+      label: 公开信息确认
+      options:
+        - label: 以上链接指向公开内容，不包含登录凭据或私人信息。
+          required: true

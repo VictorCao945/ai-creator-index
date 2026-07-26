@@ -1,0 +1,31 @@
+name: 博主本人补充
+description: 创作者本人补充账号、作品或原始来源。提交不会自动产生“本人认证”。
+title: "[本人补充] "
+labels: ["creator-submission", "needs-review"]
+body:
+  - type: input
+    id: creator
+    attributes:
+      label: 创作者名称与档案 ID
+    validations:
+      required: true
+  - type: textarea
+    id: addition
+    attributes:
+      label: 希望补充或纠正的信息
+    validations:
+      required: true
+  - type: textarea
+    id: public_evidence
+    attributes:
+      label: 可公开核验的来源
+      description: 可提供个人主页、原节目、官方页面或公开声明。
+    validations:
+      required: true
+  - type: checkboxes
+    id: review
+    attributes:
+      label: 核验说明
+      options:
+        - label: 我理解维护者会独立核验，此提交不会自动标记为“本人认证”。
+          required: true

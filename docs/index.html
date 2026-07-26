@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="从创作者的公开内容出发，找到他们提过的产品、播客、文章、项目与原始来源。">
+  <title>AI 创作者档案库</title>
+  <link rel="icon" type="image/png" href="./favicon.png">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <a class="brand" href="./">AI 创作者档案库</a>
+    <nav><a href="https://github.com/VictorCao945/ai-creator-index">GitHub</a><a href="https://github.com/VictorCao945/ai-creator-index/issues/new/choose">纠错 / 推荐</a></nav>
+  </header>
+  <main>
+      <section class="hero">
+        <p class="eyebrow">AI CREATOR INDEX · V0.1</p>
+        <h1>不只看观点，<br><span>继续找到原始出处。</span></h1>
+        <p class="lead">从创作者的公开内容出发，整理代表内容、提及对象、原始链接和证据等级。第一位：小盖。</p>
+        <div class="snapshot"><span>1 位创作者</span><span>24 条索引内容</span><span>17 个提及对象</span><span>24 条来源</span></div>
+      </section>
+      <section class="finder" aria-labelledby="finder-title">
+        <div class="section-head"><div><p class="eyebrow">EXPLORE</p><h2 id="finder-title">查一个人，也查一条线索</h2></div><p>可按名字、主题、产品、播客或项目搜索。</p></div>
+        <label class="search"><span>⌕</span><input id="search-input" type="search" placeholder="试试：小盖、Codex、播客、Agent 安全" aria-label="搜索创作者和提及对象"></label>
+        <div class="filters" id="topic-filters">
+          <button class="active" data-topic="">全部</button>
+          <button data-topic="AI Coding">AI Coding</button><button data-topic="AI 产品">AI 产品</button><button data-topic="Agent">Agent</button><button data-topic="Vibe Coding">Vibe Coding</button><button data-topic="安全">安全</button><button data-topic="提示词">提示词</button><button data-topic="播客">播客</button>
+        </div>
+        <div id="creator-list" class="creator-grid"></div>
+      </section>
+      <section class="rules">
+        <div><p class="eyebrow">EVIDENCE</p><h2>把“听说”与“找到原文”分开</h2></div>
+        <div class="grade-grid"><article><span class="grade grade-a">A</span><p>找到原节目、官方页面、原仓库、官方活动记录，或主张直接来自原始笔记。</p></article><article><span class="grade grade-b">B</span><p>事件本身可核实，但具体观点来自转述或二手报道。</p></article><article><span class="grade grade-c">C</span><p>只确认到笔记或附件，尚未找到公开、稳定的原始出处。</p></article></div>
+      </section>
+      <section class="community">
+        <p class="eyebrow">OPEN TO CORRECTIONS</p>
+        <h2>资料库不是终审判决，而是一份可被纠正的公共底稿。</h2>
+        <div class="actions"><a class="button primary" href="https://github.com/VictorCao945/ai-creator-index/issues/new?template=creator-correction.yml">博主本人补充 / 纠正</a><a class="button" href="https://github.com/VictorCao945/ai-creator-index/issues/new?template=creator-nomination.yml">推荐下一位</a></div>
+      </section>
+    </main>
+  <footer>结构化整理 CC BY 4.0 · 外部内容版权归原作者 · 快照 2026-07-26</footer>
+  <script src="./assets/app.js" defer></script>
+</body>
+</html>

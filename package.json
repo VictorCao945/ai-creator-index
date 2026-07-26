@@ -1,0 +1,26 @@
+{
+  "name": "ai-creator-index",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AI 创作者档案库：可核验的内容情报、提及对象与原始来源。",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs",
+    "build:xhs": "node scripts/render-xhs.mjs",
+    "build:all": "npm run validate && npm run build && npm run build:xhs",
+    "check:links": "node scripts/check-links.mjs",
+    "test:skill": "node --test tests/skill-query.test.mjs",
+    "test": "npm run validate && npm run test:skill && npm run build",
+    "test:local-assets": "npm test && npm run build:xhs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "sharp": "^0.34.3",
+    "yaml": "^2.8.1"
+  }
+}

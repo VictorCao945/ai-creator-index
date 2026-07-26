@@ -1,0 +1,20 @@
+name: Validate and build
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Confirm generated data and site are committed
+        run: git diff --exit-code -- generated docs skills/explore-ai-creators/references

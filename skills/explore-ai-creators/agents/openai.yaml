@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 创作者档案查询"
+  short_description: "查询创作者提及的产品、播客、项目、原始链接和证据等级"
+  default_prompt: "使用 $explore-ai-creators 查询小盖提过的播客，并附证据等级与原始链接。"
