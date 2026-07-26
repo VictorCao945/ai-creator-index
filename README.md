@@ -49,7 +49,7 @@ Skill 只读，不登录、不抓取、不发布，也不模仿创作者风格�
 
 - **GitHub / Codex Skill：已连通并通过刷新与查询测试。**
 - **小红书 RED Skill：尚未完成平台上传、审核和 Skill ID 验证。** `xhs-output/001-xiaogai/publish/red-skill.md` 目前是发布挂载清单，不代表小红书端已经上线。
-- **GitHub Pages：仓库内容已具备部署工作流，但公开 Pages 地址尚未启用，启用前访问会返回 404。** 仓库所有者需在 `Settings → Pages → Build and deployment → Source` 手动选择 **GitHub Actions**，再重新运行 `Deploy GitHub Pages`；工作流令牌无权代替所有者完成首次启用。
+- **GitHub Pages：已启用并通过 GitHub Actions 部署。** [打开 AI 创作者档案库](https://victorcao945.github.io/ai-creator-index/)。
 
 ## 数据维护
 
