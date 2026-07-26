@@ -6,23 +6,25 @@
   <circle cx="104" cy="89" r="34" fill="none" stroke="#DDD8CC" stroke-width="2"/>
   <text x="154" y="86" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="28" font-weight="760" fill="#111211">啊哈先生</text>
   <text x="154" y="116" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="20" font-weight="500" fill="#66645D">博主档案 · 001</text>
-  <text x="1004" y="1390" text-anchor="end" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="28" font-weight="800" fill="#0B8795">03</text>
-    <text x="70" y="236" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="800" fill="#F2A014">第一个意外</text>
-    <text x="70" y="342" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="56" font-weight="760" fill="#111211">OpenClaw最值得追的，可能不是怎</text><text x="70" y="418" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="56" font-weight="760" fill="#111211">么安装</text>
-    <line x1="70" y1="504" x2="210" y2="504" stroke="#F2A014" stroke-width="7" stroke-linecap="round"/>
-    <text x="70" y="556" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="37" font-weight="500" fill="#111211">我原以为这又是一篇“养龙虾”教程。真正让我停下来的，</text><text x="70" y="614" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="37" font-weight="500" fill="#111211">是把通用Agent预配置成垂直数字员工：普通人不学</text><text x="70" y="672" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="37" font-weight="500" fill="#111211">Skills、API和环境配置，直接购买一个能交付结果的角</text><text x="70" y="730" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="37" font-weight="500" fill="#111211">色。</text>
-    <rect x="70" y="843" width="438" height="82" rx="8" fill="#FFFFFF"/>
-      <circle cx="98" cy="884" r="7" fill="#0B8795"/>
-      <text x="122" y="894" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="700" fill="#111211">内容情报员</text><rect x="540" y="843" width="438" height="82" rx="8" fill="#FFFFFF"/>
-      <circle cx="568" cy="884" r="7" fill="#F2A014"/>
-      <text x="592" y="894" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="700" fill="#111211">健康教练</text><rect x="70" y="951" width="438" height="82" rx="8" fill="#FFFFFF"/>
-      <circle cx="98" cy="992" r="7" fill="#0B8795"/>
-      <text x="122" y="1002" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="700" fill="#111211">自动化开发团队</text><rect x="540" y="951" width="438" height="82" rx="8" fill="#FFFFFF"/>
-      <circle cx="568" cy="992" r="7" fill="#F2A014"/>
-      <text x="592" y="1002" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="700" fill="#111211">SEO 构建器</text>
-    <rect x="70" y="1203" width="940" height="58" rx="8" fill="#F7E8C7"/>
-  <text x="94" y="1242" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="23" font-weight="650" fill="#805A12">产品能力 A；原始 X 作者 C</text>
-    <line x1="70" y1="1298" x2="1010" y2="1298" stroke="#DDD8CC"/>
-  <text x="70" y="1340" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="22" font-weight="500" fill="#66645D">我准备继续做的：选“内容情报员”跑一个原型，记录成本、失败和真实省下的时间</text>
-  
+<text x="1004" y="1390" text-anchor="end" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="28" font-weight="800" fill="#0B8795">02</text>
+    <text x="70" y="236" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="42" font-weight="800" fill="#F2A014">先说结论</text>
+    <text x="70" y="356" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="58" font-weight="760" fill="#111211">他不是“AI工具号”，更像中文科技</text><text x="70" y="434" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="58" font-weight="760" fill="#111211">圈的信息策展人</text>
+    <line x1="70" y1="548" x2="212" y2="548" stroke="#F2A014" stroke-width="7" stroke-linecap="round"/>
+    <text x="70" y="630" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="38" font-weight="500" fill="#111211">他的内容起点很少是“又出了一个新工具”，而是先去X、</text><text x="70" y="688" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="38" font-weight="500" fill="#111211">播客、直播和演讲里找到值得看的材料，再替中文读者筛</text><text x="70" y="746" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="38" font-weight="500" fill="#111211">出其中最有价值的一个判断。</text>
+    <rect x="70" y="790" width="286" height="214" rx="10" fill="#FFFFFF"/>
+      <text x="98" y="874" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="58" font-weight="850" fill="#0B8795">828</text>
+      <text x="98" y="930" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="500" fill="#66645D">我实际遍历的公开内容</text><rect x="388" y="790" width="286" height="214" rx="10" fill="#FFFFFF"/>
+      <text x="416" y="874" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="58" font-weight="850" fill="#F2A014">103</text>
+      <text x="416" y="930" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="500" fill="#66645D">近3个月发布内容</text><rect x="706" y="790" width="286" height="214" rx="10" fill="#FFFFFF"/>
+      <text x="734" y="874" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="58" font-weight="850" fill="#0B8795">1.4M</text>
+      <text x="734" y="930" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="500" fill="#66645D">主页赞与收藏</text>
+    <path d="M110 1100 C260 1030,360 1170,510 1100 S760 1025,940 1090" fill="none" stroke="#0B8795" stroke-width="4"/>
+    <text x="92" y="1170" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="26" font-weight="750" fill="#0B8795">发现</text>
+    <text x="252" y="1170" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="26" font-weight="500" fill="#66645D">→</text>
+    <text x="360" y="1170" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="26" font-weight="750" fill="#0B8795">转述</text>
+    <text x="550" y="1170" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="26" font-weight="500" fill="#66645D">→</text>
+    <text x="690" y="1170" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="26" font-weight="750" fill="#0B8795">提炼</text>
+    <line x1="70" y1="1286" x2="1010" y2="1286" stroke="#DDD8CC"/>
+  <text x="70" y="1328" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="500" fill="#66645D">关注他的价值，不是知道更多工具，而是更快找到值得继续看的东西。</text>
+
 </svg>

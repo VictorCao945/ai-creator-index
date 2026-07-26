@@ -6,25 +6,23 @@
   <circle cx="104" cy="89" r="34" fill="none" stroke="#DDD8CC" stroke-width="2"/>
   <text x="154" y="86" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="28" font-weight="760" fill="#111211">啊哈先生</text>
   <text x="154" y="116" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="20" font-weight="500" fill="#66645D">博主档案 · 001</text>
-  <text x="1004" y="1390" text-anchor="end" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="28" font-weight="800" fill="#0B8795">02</text>
-    <text x="70" y="236" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="800" fill="#F2A014">我原来以为</text>
-    <text x="70" y="356" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="62" font-weight="760" fill="#111211">这只是一个更新很快的“AI工具号”</text>
-    <line x1="70" y1="548" x2="212" y2="548" stroke="#F2A014" stroke-width="7" stroke-linecap="round"/>
-    <text x="70" y="630" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="38" font-weight="500" fill="#111211">翻到第828篇后，我改了判断。真正稳定的不是某个工具，</text><text x="70" y="688" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="38" font-weight="500" fill="#111211">而是一条内容路径：去X、播客、直播和演讲里找新东西，</text><text x="70" y="746" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="38" font-weight="500" fill="#111211">再把复杂信息压成一个中文读者能马上理解的观点。</text>
-    <rect x="70" y="790" width="286" height="214" rx="10" fill="#FFFFFF"/>
-      <text x="98" y="874" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="58" font-weight="850" fill="#0B8795">828</text>
-      <text x="98" y="930" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="500" fill="#66645D">篇公开笔记</text><rect x="388" y="790" width="286" height="214" rx="10" fill="#FFFFFF"/>
-      <text x="416" y="874" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="58" font-weight="850" fill="#F2A014">103</text>
-      <text x="416" y="930" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="500" fill="#66645D">近92天</text><rect x="706" y="790" width="286" height="214" rx="10" fill="#FFFFFF"/>
-      <text x="734" y="874" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="58" font-weight="850" fill="#0B8795">2025.01</text>
-      <text x="734" y="930" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="500" fill="#66645D">最早遍历</text>
-    <path d="M110 1100 C260 1030,360 1170,510 1100 S760 1025,940 1090" fill="none" stroke="#0B8795" stroke-width="4"/>
-    <text x="92" y="1170" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="26" font-weight="750" fill="#0B8795">发现</text>
-    <text x="252" y="1170" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="26" font-weight="500" fill="#66645D">→</text>
-    <text x="360" y="1170" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="26" font-weight="750" fill="#0B8795">转述</text>
-    <text x="550" y="1170" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="26" font-weight="500" fill="#66645D">→</text>
-    <text x="690" y="1170" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="26" font-weight="750" fill="#0B8795">提炼</text>
-    <line x1="70" y1="1286" x2="1010" y2="1286" stroke="#DDD8CC"/>
-  <text x="70" y="1328" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="22" font-weight="500" fill="#66645D">也正因为更新快，我更想知道：哪些线索值得离开小红书继续往下查？</text>
-  
+<text x="1004" y="1390" text-anchor="end" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="28" font-weight="800" fill="#0B8795">05</text>
+    <text x="70" y="236" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="41" font-weight="800" fill="#F2A014">第三种能力｜会落地</text>
+    <text x="70" y="342" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="56" font-weight="760" fill="#111211">他不只讲“发生了什么”，还会告诉</text><text x="70" y="418" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="56" font-weight="760" fill="#111211">你“现在怎么用”</text>
+    <line x1="70" y1="504" x2="210" y2="504" stroke="#F2A014" stroke-width="7" stroke-linecap="round"/>
+    <text x="70" y="556" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="37" font-weight="500" fill="#111211">从“先采访、后执行”的提示词，到Codex的会议、表格</text><text x="70" y="614" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="37" font-weight="500" fill="#111211">和Slides工作流，再到从日常摩擦里找VibeCoding点子，</text><text x="70" y="672" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="37" font-weight="500" fill="#111211">信息最后都会落到一个可以尝试的动作。</text>
+    <rect x="70" y="774" width="438" height="96" rx="8" fill="#FFFFFF"/>
+      <circle cx="98" cy="818" r="7" fill="#0B8795"/>
+      <text x="122" y="826" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="700" fill="#111211">提示词：先采访，再执行</text><rect x="540" y="774" width="438" height="96" rx="8" fill="#FFFFFF"/>
+      <circle cx="568" cy="818" r="7" fill="#F2A014"/>
+      <text x="592" y="826" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="700" fill="#111211">Codex：会议、表格、Slides</text><rect x="70" y="886" width="438" height="96" rx="8" fill="#FFFFFF"/>
+      <circle cx="98" cy="930" r="7" fill="#0B8795"/>
+      <text x="122" y="938" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="700" fill="#111211">VibeCoding：从摩擦找点子</text><rect x="540" y="886" width="438" height="96" rx="8" fill="#FFFFFF"/>
+      <circle cx="568" cy="930" r="7" fill="#F2A014"/>
+      <text x="592" y="938" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="700" fill="#111211">OpenClaw：垂直数字员工</text>
+    <rect x="70" y="1203" width="940" height="58" rx="8" fill="#DDEFF0"/>
+  <text x="94" y="1242" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="23" font-weight="650" fill="#176A73">代表内容｜提示词、Codex 8个场景、Vibe Coding点子</text>
+    <line x1="70" y1="1298" x2="1010" y2="1298" stroke="#DDD8CC"/>
+  <text x="70" y="1340" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="500" fill="#66645D">他的优势不是把技术讲得更复杂，而是把“这和我有什么关系”讲得更具体。</text>
+
 </svg>
