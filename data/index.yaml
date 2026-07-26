@@ -16,8 +16,12 @@ creators:
   - id: xiaogai
     display_name: 小盖
     aliases: []
-    bio: 从 X、播客、直播和演讲中发现素材，再用强观点翻译给中文受众的科技内容创作者。
-    profile_summary: 发现—转述—提炼型账号；近期重点关注 Codex、Agent、安全、AI 产品与行动力。
+    bio: 从 X、播客、直播、演讲与官方发布中筛选高密度信息，再把长内容提炼成清晰中文判断的科技内容创作者。
+    profile_summary: 中文科技圈的信息策展人：稳定完成“找材料、炼判断、落行动”，帮助读者缩短从发现信息到理解并使用信息的路径。
+    media:
+      avatar_path: assets/creators/xiaogai/avatar.jpg
+      profile_screenshot_path: assets/creators/xiaogai/profile.png
+      captured_at: 2026-07-26
     topics:
       - AI Coding
       - Agent
@@ -42,8 +46,44 @@ creators:
       recent_post_count: 103
       profile_social_proof: 1.4M次赞与收藏
     editorial_takeaways:
-      - 真正值得继续做的不是复述同一素材，而是找到原始出处、验证主张并亲手跑一个可复现案例。
-      - 优先跟进 OpenClaw 垂直数字员工、先采访后执行、Codex 非编程工作流、Agent 安全和 agency/taste。
+      - 选材好：长期从 X、播客、直播、演讲和官方发布中寻找高密度原材料，而不是只追逐平台内的工具热点。
+      - 提炼强：不平均复述长内容，而是抓住最有张力的问题，把它压成中文读者能记住、愿意转发的判断。
+      - 有行动感：最终总会回到“这和普通人的工作、学习与选择有什么关系”，让信息变成可尝试的动作。
+    content_analysis:
+      positioning: 他不是工具说明书型账号，更接近中文科技圈的信息策展人。
+      content_loop:
+        - label: 会找
+          explanation: 跨平台寻找正在产生新判断的高质量原材料。
+          examples:
+            - X 上的 AI Builder 与新产品
+            - Lenny's Podcast 等产品播客
+            - Anthropic 官方访谈与研究
+            - 直播、演讲和行业论坛
+        - label: 会炼
+          explanation: 从长内容里抓住一个最有张力的问题，形成清晰、可记忆的中文判断。
+          examples:
+            - Agency 比技能更耐久
+            - AI 是工具还是拐杖
+            - 失败是下一次原型的反馈
+        - label: 会落地
+          explanation: 把趋势和观点继续翻译成提示词、工作流或普通人可以马上尝试的动作。
+          examples:
+            - 先采访、后执行提示词
+            - Codex 非编程工作流
+            - 从日常摩擦寻找 Vibe Coding 点子
+      reader_value:
+        - 替读者跨平台寻找并筛选高密度信息。
+        - 替读者完成“什么最值得记住”的判断。
+        - 给出继续阅读、验证或亲手尝试的入口。
+      source_channels:
+        - channel: X / AI Builder
+          examples: [OpenClaw Wrapper, 新产品与创业判断]
+        - channel: 播客
+          examples: [Notion 产品负责人 Max Schoening, James Dyson × David Senra]
+        - channel: 官方访谈与研究
+          examples: [Anthropic 四名大学生访谈, Anthropic Education Report]
+        - channel: 直播、演讲与论坛
+          examples: [Tim × 天猫 AI 数码直播, 智能体创新与治理论坛]
     last_verified_at: 2026-07-26
 
 posts:

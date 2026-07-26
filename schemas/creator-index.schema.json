@@ -80,8 +80,9 @@
     "creator": {
       "type": "object",
       "required": [
-        "id", "display_name", "bio", "profile_summary", "topics",
-        "platform_accounts", "stats_snapshot", "editorial_takeaways", "last_verified_at"
+        "id", "display_name", "bio", "profile_summary", "media", "topics",
+        "platform_accounts", "stats_snapshot", "editorial_takeaways",
+        "content_analysis", "last_verified_at"
       ],
       "properties": {
         "id": {"$ref": "#/$defs/id"},
@@ -89,6 +90,16 @@
         "aliases": {"type": "array", "items": {"type": "string"}},
         "bio": {"type": "string"},
         "profile_summary": {"type": "string"},
+        "media": {
+          "type": "object",
+          "required": ["avatar_path", "profile_screenshot_path", "captured_at"],
+          "additionalProperties": false,
+          "properties": {
+            "avatar_path": {"type": "string", "minLength": 1},
+            "profile_screenshot_path": {"type": "string", "minLength": 1},
+            "captured_at": {"$ref": "#/$defs/date"}
+          }
+        },
         "topics": {"type": "array", "items": {"type": "string"}},
         "platform_accounts": {
           "type": "array",
@@ -120,6 +131,42 @@
           }
         },
         "editorial_takeaways": {"type": "array", "items": {"type": "string"}},
+        "content_analysis": {
+          "type": "object",
+          "required": ["positioning", "content_loop", "reader_value", "source_channels"],
+          "additionalProperties": false,
+          "properties": {
+            "positioning": {"type": "string"},
+            "content_loop": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": ["label", "explanation", "examples"],
+                "additionalProperties": false,
+                "properties": {
+                  "label": {"type": "string"},
+                  "explanation": {"type": "string"},
+                  "examples": {"type": "array", "items": {"type": "string"}}
+                }
+              }
+            },
+            "reader_value": {"type": "array", "items": {"type": "string"}},
+            "source_channels": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": ["channel", "examples"],
+                "additionalProperties": false,
+                "properties": {
+                  "channel": {"type": "string"},
+                  "examples": {"type": "array", "items": {"type": "string"}}
+                }
+              }
+            }
+          }
+        },
         "last_verified_at": {"$ref": "#/$defs/date"}
       }
     },

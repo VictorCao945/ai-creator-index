@@ -6,20 +6,23 @@
   <circle cx="104" cy="89" r="34" fill="none" stroke="#DDD8CC" stroke-width="2"/>
   <text x="154" y="86" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="28" font-weight="760" fill="#111211">啊哈先生</text>
   <text x="154" y="116" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="20" font-weight="500" fill="#66645D">博主档案 · 001</text>
-
-    <text x="70" y="236" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="42" font-weight="800" fill="#F2A014">总结</text>
-    <text x="70" y="354" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="58" font-weight="770" fill="#111211">我关注小盖的3个原因</text>
-    <line x1="70" y1="552" x2="210" y2="552" stroke="#F2A014" stroke-width="7" stroke-linecap="round"/>
-    <text x="70" y="635" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="36" font-weight="500" fill="#111211">不是因为他覆盖了多少热门工具，而是因为他持续完成了</text><text x="70" y="692" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="36" font-weight="500" fill="#111211">三件对读者真正有价值的事。</text>
-    <rect x="70" y="810" width="940" height="260" rx="10" fill="#FFFFFF"/>
-    <circle cx="118" cy="868" r="7" fill="#0B8795"/>
-      <text x="148" y="878" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="650" fill="#111211">选材好：知道去哪里找高密度信息</text><circle cx="118" cy="936" r="7" fill="#0B8795"/>
-      <text x="148" y="946" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="650" fill="#111211">提炼强：把复杂材料变成清晰判断</text><circle cx="118" cy="1004" r="7" fill="#F2A014"/>
-      <text x="148" y="1014" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="650" fill="#111211">有行动感：把科技拉回工作、学习和选择</text>
-    <rect x="70" y="1102" width="940" height="126" rx="10" fill="#DDEFF0"/>
-    <text x="102" y="1142" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="21" font-weight="800" fill="#0B8795">我正在做的事</text>
-    <text x="102" y="1180" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="760" fill="#111211">持续整理我关注的 100 位 AI 博主档案</text>
-    <text x="102" y="1214" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="21" font-weight="500" fill="#66645D">后续档案与更新，可通过本篇挂载的 Skill 跟进</text>
-    <text x="70" y="1308" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="40" font-weight="800" fill="#F2A014">欢迎你持续关注并提交你的宝藏博主！</text>
+<text x="1004" y="1390" text-anchor="end" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="28" font-weight="800" fill="#0B8795">04</text>
+    <text x="70" y="236" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="41" font-weight="800" fill="#F2A014">第二种能力｜会炼</text>
+    <text x="70" y="330" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="56" font-weight="800" fill="#111211">他会把一小时播客，压成一句你记得</text><text x="70" y="404" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="56" font-weight="800" fill="#111211">住的话</text>
+    <line x1="70" y1="480" x2="210" y2="480" stroke="#F2A014" stroke-width="7" stroke-linecap="round"/>
+    <text x="70" y="534" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="36" font-weight="500" fill="#111211">小盖很少平均用力地复述整期内容。他更擅长抓住里面最</text><text x="70" y="590" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="36" font-weight="500" fill="#111211">有张力的那个问题，再把它翻译成一句中文读者能记住、</text><text x="70" y="646" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="36" font-weight="500" fill="#111211">也愿意转发的判断。</text>
+    <rect x="70" y="744" width="940" height="292" rx="12" fill="#FFFFFF"/>
+    <text x="112" y="802" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="800" fill="#0B8795">三个典型例子</text>
+    <circle cx="120" cy="860" r="18" fill="#F2A014"/>
+      <text x="120" y="868" text-anchor="middle" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="18" font-weight="800" fill="#fff">1</text>
+      <text x="164" y="869" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="29" font-weight="650" fill="#111211">Agency 比技能更耐久</text><circle cx="120" cy="922" r="18" fill="#0B8795"/>
+      <text x="120" y="930" text-anchor="middle" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="18" font-weight="800" fill="#fff">2</text>
+      <text x="164" y="931" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="29" font-weight="650" fill="#111211">AI 是工具，还是拐杖</text><circle cx="120" cy="984" r="18" fill="#0B8795"/>
+      <text x="120" y="992" text-anchor="middle" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="18" font-weight="800" fill="#fff">3</text>
+      <text x="164" y="993" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="29" font-weight="650" fill="#111211">失败是下一次原型的反馈</text>
+    <rect x="70" y="1177" width="940" height="58" rx="8" fill="#DDEFF0"/>
+  <text x="94" y="1216" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="23" font-weight="650" fill="#176A73">原节目｜Lenny&#39;s Podcast / Anthropic官方访谈 / Dyson × David Senra</text>
+    <line x1="70" y1="1288" x2="1010" y2="1288" stroke="#DDD8CC"/>
+  <text x="70" y="1330" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="500" fill="#66645D">这不是简单做摘要，而是替读者完成一次“什么最值得记住”的选择。</text>
 
 </svg>
