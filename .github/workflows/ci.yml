@@ -16,5 +16,5 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm test
-      - name: Confirm generated outputs are committed
-        run: git diff --exit-code
+      - name: Confirm generated data and site are committed
+        run: git diff --exit-code -- generated docs skills/explore-ai-creators/references

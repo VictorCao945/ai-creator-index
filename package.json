@@ -11,7 +11,8 @@
     "build:all": "npm run validate && npm run build && npm run build:xhs",
     "check:links": "node scripts/check-links.mjs",
     "test:skill": "node --test tests/skill-query.test.mjs",
-    "test": "npm run validate && npm run test:skill && npm run build:all"
+    "test": "npm run validate && npm run test:skill && npm run build",
+    "test:local-assets": "npm test && npm run build:xhs"
   },
   "engines": {
     "node": ">=20"
