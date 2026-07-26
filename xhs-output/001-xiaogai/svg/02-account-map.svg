@@ -7,17 +7,17 @@
   <text x="154" y="86" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="28" font-weight="760" fill="#111211">啊哈先生</text>
   <text x="154" y="116" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="20" font-weight="500" fill="#66645D">博主档案 · 001</text>
   <text x="1004" y="1390" text-anchor="end" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="28" font-weight="800" fill="#0B8795">02</text>
-    <text x="70" y="236" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="800" fill="#F2A014">先看账号地图</text>
-    <text x="70" y="356" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="62" font-weight="760" fill="#111211">他不是“工具说明书型”账号</text>
+    <text x="70" y="236" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="800" fill="#F2A014">我原来以为</text>
+    <text x="70" y="356" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="62" font-weight="760" fill="#111211">这只是一个更新很快的“AI工具号”</text>
     <line x1="70" y1="548" x2="212" y2="548" stroke="#F2A014" stroke-width="7" stroke-linecap="round"/>
-    <text x="70" y="630" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="38" font-weight="500" fill="#111211">小盖更像一名中文科技策展人：从X、播客、直播和演讲</text><text x="70" y="688" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="38" font-weight="500" fill="#111211">里发现素材，再用一个强观点完成转述与提炼。</text>
-    <rect x="70" y="742" width="286" height="244" rx="10" fill="#FFFFFF"/>
-      <text x="98" y="836" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="58" font-weight="850" fill="#0B8795">828</text>
-      <text x="98" y="892" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="500" fill="#66645D">篇公开笔记</text><rect x="388" y="742" width="286" height="244" rx="10" fill="#FFFFFF"/>
-      <text x="416" y="836" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="58" font-weight="850" fill="#F2A014">103</text>
-      <text x="416" y="892" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="500" fill="#66645D">近92天</text><rect x="706" y="742" width="286" height="244" rx="10" fill="#FFFFFF"/>
-      <text x="734" y="836" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="58" font-weight="850" fill="#0B8795">2025.01</text>
-      <text x="734" y="892" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="500" fill="#66645D">最早遍历</text>
+    <text x="70" y="630" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="38" font-weight="500" fill="#111211">翻到第828篇后，我改了判断。真正稳定的不是某个工具，</text><text x="70" y="688" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="38" font-weight="500" fill="#111211">而是一条内容路径：去X、播客、直播和演讲里找新东西，</text><text x="70" y="746" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="38" font-weight="500" fill="#111211">再把复杂信息压成一个中文读者能马上理解的观点。</text>
+    <rect x="70" y="790" width="286" height="214" rx="10" fill="#FFFFFF"/>
+      <text x="98" y="874" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="58" font-weight="850" fill="#0B8795">828</text>
+      <text x="98" y="930" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="500" fill="#66645D">篇公开笔记</text><rect x="388" y="790" width="286" height="214" rx="10" fill="#FFFFFF"/>
+      <text x="416" y="874" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="58" font-weight="850" fill="#F2A014">103</text>
+      <text x="416" y="930" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="500" fill="#66645D">近92天</text><rect x="706" y="790" width="286" height="214" rx="10" fill="#FFFFFF"/>
+      <text x="734" y="874" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="58" font-weight="850" fill="#0B8795">2025.01</text>
+      <text x="734" y="930" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="25" font-weight="500" fill="#66645D">最早遍历</text>
     <path d="M110 1100 C260 1030,360 1170,510 1100 S760 1025,940 1090" fill="none" stroke="#0B8795" stroke-width="4"/>
     <text x="92" y="1170" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="26" font-weight="750" fill="#0B8795">发现</text>
     <text x="252" y="1170" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="26" font-weight="500" fill="#66645D">→</text>
@@ -25,6 +25,6 @@
     <text x="550" y="1170" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="26" font-weight="500" fill="#66645D">→</text>
     <text x="690" y="1170" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="26" font-weight="750" fill="#0B8795">提炼</text>
     <line x1="70" y1="1286" x2="1010" y2="1286" stroke="#DDD8CC"/>
-  <text x="70" y="1328" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="22" font-weight="500" fill="#66645D">近期主线：Codex/Agent与安全/AI产品判断/行动力</text>
+  <text x="70" y="1328" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="22" font-weight="500" fill="#66645D">也正因为更新快，我更想知道：哪些线索值得离开小红书继续往下查？</text>
   
 </svg>

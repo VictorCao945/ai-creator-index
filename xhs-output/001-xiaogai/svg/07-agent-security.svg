@@ -7,22 +7,22 @@
   <text x="154" y="86" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="28" font-weight="760" fill="#111211">啊哈先生</text>
   <text x="154" y="116" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="20" font-weight="500" fill="#66645D">博主档案 · 001</text>
   <text x="1004" y="1390" text-anchor="end" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="28" font-weight="800" fill="#0B8795">07</text>
-    <text x="70" y="236" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="800" fill="#F2A014">线索 05 · Agent 安全</text>
-    <text x="70" y="342" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="56" font-weight="760" fill="#111211">把Agent放进开放环境前，先设计撤</text><text x="70" y="418" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="56" font-weight="760" fill="#111211">退路线</text>
+    <text x="70" y="236" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="800" fill="#F2A014">真正让我停下来的</text>
+    <text x="70" y="342" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="56" font-weight="760" fill="#111211">不是Agent会做什么，而是出事后能</text><text x="70" y="418" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="56" font-weight="760" fill="#111211">不能撤回来</text>
     <line x1="70" y1="504" x2="210" y2="504" stroke="#F2A014" stroke-width="7" stroke-linecap="round"/>
-    <text x="70" y="556" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="37" font-weight="500" fill="#111211">小盖经历两次API额度耗尽后轮换密钥并关闭入口。但</text><text x="70" y="614" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="37" font-weight="500" fill="#111211">“Key泄露”只是推断；真正可复用的是权限与审计框架。</text>
-    <rect x="70" y="727" width="438" height="82" rx="8" fill="#FFFFFF"/>
-      <circle cx="98" cy="768" r="7" fill="#0B8795"/>
-      <text x="122" y="778" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="700" fill="#111211">每个 Agent 独立密钥</text><rect x="540" y="727" width="438" height="82" rx="8" fill="#FFFFFF"/>
-      <circle cx="568" cy="768" r="7" fill="#F2A014"/>
-      <text x="592" y="778" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="700" fill="#111211">最小权限 + 额度上限</text><rect x="70" y="835" width="438" height="82" rx="8" fill="#FFFFFF"/>
-      <circle cx="98" cy="876" r="7" fill="#0B8795"/>
-      <text x="122" y="886" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="700" fill="#111211">外部写操作保留审批</text><rect x="540" y="835" width="438" height="82" rx="8" fill="#FFFFFF"/>
-      <circle cx="568" cy="876" r="7" fill="#F2A014"/>
-      <text x="592" y="886" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="700" fill="#111211">可撤销、可轮换、可审计</text>
+    <text x="70" y="556" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="37" font-weight="500" fill="#111211">小盖经历两次API额度耗尽后轮换密钥并关闭入口。但</text><text x="70" y="614" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="37" font-weight="500" fill="#111211">“Key泄露”仍只是推断。比安全故事更值得带走的，是</text><text x="70" y="672" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="37" font-weight="500" fill="#111211">把权限、额度、审批、撤销和审计提前设计好。</text>
+    <rect x="70" y="785" width="438" height="82" rx="8" fill="#FFFFFF"/>
+      <circle cx="98" cy="826" r="7" fill="#0B8795"/>
+      <text x="122" y="836" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="700" fill="#111211">每个 Agent 独立密钥</text><rect x="540" y="785" width="438" height="82" rx="8" fill="#FFFFFF"/>
+      <circle cx="568" cy="826" r="7" fill="#F2A014"/>
+      <text x="592" y="836" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="700" fill="#111211">最小权限 + 额度上限</text><rect x="70" y="893" width="438" height="82" rx="8" fill="#FFFFFF"/>
+      <circle cx="98" cy="934" r="7" fill="#0B8795"/>
+      <text x="122" y="944" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="700" fill="#111211">外部写操作保留审批</text><rect x="540" y="893" width="438" height="82" rx="8" fill="#FFFFFF"/>
+      <circle cx="568" cy="934" r="7" fill="#F2A014"/>
+      <text x="592" y="944" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="700" fill="#111211">可撤销、可轮换、可审计</text>
     <rect x="70" y="1203" width="940" height="58" rx="8" fill="#F7E8C7"/>
   <text x="94" y="1242" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="23" font-weight="650" fill="#805A12">论坛 A；事故原因 B</text>
     <line x1="70" y1="1298" x2="1010" y2="1298" stroke="#DDD8CC"/>
-  <text x="70" y="1340" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="22" font-weight="500" fill="#66645D">证据边界比一个吓人的安全故事更重要</text>
+  <text x="70" y="1340" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="22" font-weight="500" fill="#66645D">这也是我给整份档案保留A/B/C的原因：证据边界比一个吓人的故事更重要</text>
   
 </svg>

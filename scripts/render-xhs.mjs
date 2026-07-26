@@ -111,9 +111,9 @@ function cover() {
 function statCard(card) {
   const stats = card.stats.map((item, i) => {
     const x = 70 + i * 318;
-    return `<rect x="${x}" y="742" width="286" height="244" rx="10" fill="${C.paper}"/>
-      ${text(item.value, x + 28, 836, { size: 58, weight: 850, color: i === 1 ? C.orange : C.teal })}
-      ${text(item.label, x + 28, 892, { size: 25, color: C.muted })}`;
+    return `<rect x="${x}" y="790" width="286" height="214" rx="10" fill="${C.paper}"/>
+      ${text(item.value, x + 28, 874, { size: 58, weight: 850, color: i === 1 ? C.orange : C.teal })}
+      ${text(item.label, x + 28, 930, { size: 25, color: C.muted })}`;
   }).join('');
   return shell(`
     ${text(card.eyebrow, 70, 236, { size: 27, weight: 800, color: C.orange })}
@@ -260,8 +260,8 @@ ${uniqueSources.map((source) => `| ${source.evidence_grade} | ${source.mention} 
 `;
 
 await Promise.all([
-  writeFile(resolve(OUT, 'publish/title.md'), `# 发布标题\n\n${content.publish_title}\n`),
-  writeFile(resolve(OUT, 'publish/caption.md'), `# 发布正文\n\n${content.caption}\n\nGitHub 档案：${repoUrl}\n`),
+  writeFile(resolve(OUT, 'publish/title.md'), `# 发布标题\n\n## 最终选择\n\n${content.publish_title}\n\n## 备选标题\n\n${content.title_candidates.map((title) => `- ${title}`).join('\n')}\n`),
+  writeFile(resolve(OUT, 'publish/caption.md'), `# 发布正文\n\n${content.caption}\n\nGitHub 档案：${repoUrl}\n\n${content.tags.join(' ')}\n`),
   writeFile(resolve(OUT, 'publish/sources.md'), sourcesMd),
   writeFile(resolve(OUT, 'publish/red-skill.md'), `# RED Skill 挂载说明
 

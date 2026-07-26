@@ -7,22 +7,22 @@
   <text x="154" y="86" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="28" font-weight="760" fill="#111211">啊哈先生</text>
   <text x="154" y="116" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="20" font-weight="500" fill="#66645D">博主档案 · 001</text>
   <text x="1004" y="1390" text-anchor="end" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="28" font-weight="800" fill="#0B8795">05</text>
-    <text x="70" y="236" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="800" fill="#F2A014">线索 03 · Codex</text>
-    <text x="70" y="342" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="56" font-weight="760" fill="#111211">非编程工作流，正在成为真正的主场</text>
+    <text x="70" y="236" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="800" fill="#F2A014">第三个需要边看边核</text>
+    <text x="70" y="342" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="56" font-weight="760" fill="#111211">Codex的主场，正在离开“只写代码”</text>
     <line x1="70" y1="426" x2="210" y2="426" stroke="#F2A014" stroke-width="7" stroke-linecap="round"/>
-    <text x="70" y="478" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="37" font-weight="500" fill="#111211">PPT、数据分析、会议纪要、磁盘整理、长文转Slides这</text><text x="70" y="536" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="37" font-weight="500" fill="#111211">些用法和官方“知识工作”定位一致，也说明Codex正从</text><text x="70" y="594" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="37" font-weight="500" fill="#111211">编程工具走向通用工作台。</text>
-    <rect x="70" y="707" width="438" height="82" rx="8" fill="#FFFFFF"/>
-      <circle cx="98" cy="748" r="7" fill="#0B8795"/>
-      <text x="122" y="758" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="700" fill="#111211">研究 → 笔记 → 选题</text><rect x="540" y="707" width="438" height="82" rx="8" fill="#FFFFFF"/>
-      <circle cx="568" cy="748" r="7" fill="#F2A014"/>
-      <text x="592" y="758" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="700" fill="#111211">长文 → Slides</text><rect x="70" y="815" width="438" height="82" rx="8" fill="#FFFFFF"/>
-      <circle cx="98" cy="856" r="7" fill="#0B8795"/>
-      <text x="122" y="866" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="700" fill="#111211">会议 → Todo与矛盾点</text><rect x="540" y="815" width="438" height="82" rx="8" fill="#FFFFFF"/>
-      <circle cx="568" cy="856" r="7" fill="#F2A014"/>
-      <text x="592" y="866" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="700" fill="#111211">表格 → 巡检与对账</text>
+    <text x="70" y="478" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="37" font-weight="500" fill="#111211">PPT、数据分析、会议纪要、磁盘整理、长文转Slides这</text><text x="70" y="536" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="37" font-weight="500" fill="#111211">些用法和官方“知识工作”定位一致。但翻到“连接</text><text x="70" y="594" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="37" font-weight="500" fill="#111211">Kimi”时，我没有直接照抄：官方公开文档里暂时找不</text><text x="70" y="652" text-anchor="start" font-family="Songti SC,STSong,serif" font-size="37" font-weight="500" fill="#111211">到这条支持说明。</text>
+    <rect x="70" y="765" width="438" height="82" rx="8" fill="#FFFFFF"/>
+      <circle cx="98" cy="806" r="7" fill="#0B8795"/>
+      <text x="122" y="816" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="700" fill="#111211">研究 → 笔记 → 选题</text><rect x="540" y="765" width="438" height="82" rx="8" fill="#FFFFFF"/>
+      <circle cx="568" cy="806" r="7" fill="#F2A014"/>
+      <text x="592" y="816" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="700" fill="#111211">长文 → Slides</text><rect x="70" y="873" width="438" height="82" rx="8" fill="#FFFFFF"/>
+      <circle cx="98" cy="914" r="7" fill="#0B8795"/>
+      <text x="122" y="924" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="700" fill="#111211">会议 → Todo与矛盾点</text><rect x="540" y="873" width="438" height="82" rx="8" fill="#FFFFFF"/>
+      <circle cx="568" cy="914" r="7" fill="#F2A014"/>
+      <text x="592" y="924" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="27" font-weight="700" fill="#111211">表格 → 巡检与对账</text>
     <rect x="70" y="1203" width="940" height="58" rx="8" fill="#F7E8C7"/>
   <text x="94" y="1242" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="23" font-weight="650" fill="#805A12">定位 A；“连接 Kimi”官方支持 C</text>
     <line x1="70" y1="1298" x2="1010" y2="1298" stroke="#DDD8CC"/>
-  <text x="70" y="1340" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="22" font-weight="500" fill="#66645D">注意：第三方兼容配置，不能包装成OpenAI官方安装路径</text>
+  <text x="70" y="1340" text-anchor="start" font-family="PingFang SC,Hiragino Sans GB,Arial,sans-serif" font-size="22" font-weight="500" fill="#66645D">我的结论：非编程工作流值得复现；第三方兼容配置不能包装成官方安装路径</text>
   
 </svg>

@@ -14,6 +14,7 @@ V0.1 收录 **小盖**。档案不是“起底”，而是一份可被纠正、�
 - [版本清单](generated/manifest.json)
 - [公开查询 Skill](skills/explore-ai-creators/SKILL.md)
 - [小红书 #001 发布素材](xhs-output/001-xiaogai/)
+- [小红书“博主档案”对外内容标准](content/XHS_CREATOR_PROFILE_STANDARD.md)
 
 数据快照：**2026-07-26**。本次遍历范围、热度口径和证据规则均记录在档案中。
 
