@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 查看证据规则
+    url: https://github.com/VictorCao945/ai-creator-index#证据规则
+    about: 提交前了解 A/B/C 等级与核验边界。

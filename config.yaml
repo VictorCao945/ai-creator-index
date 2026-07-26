@@ -1,0 +1,10 @@
+project:
+  name: AI Creator Index
+  name_zh: AI 创作者档案库
+  repository: ai-creator-index
+  owner: VictorCao945
+  default_branch: main
+  site_base_path: /ai-creator-index/
+  snapshot_date: 2026-07-26
+  schema_version: 0.1.0
+  data_version: 0.1.0

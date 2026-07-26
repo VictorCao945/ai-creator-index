@@ -1,0 +1,33 @@
+name: 失效链接
+description: 报告无法访问、已删除或被错误重定向的来源。
+title: "[失效链接] "
+labels: ["broken-link"]
+body:
+  - type: input
+    id: source_id
+    attributes:
+      label: Source ID
+      placeholder: src-example
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 当前链接
+    validations:
+      required: true
+  - type: dropdown
+    id: symptom
+    attributes:
+      label: 现象
+      options:
+        - 404 / 已删除
+        - 登录墙
+        - 重定向到无关页面
+        - 其他错误
+    validations:
+      required: true
+  - type: input
+    id: replacement
+    attributes:
+      label: 可选的稳定替代链接

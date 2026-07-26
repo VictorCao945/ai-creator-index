@@ -1,0 +1,1635 @@
+{
+  "meta": {
+    "schema_version": "0.1.0",
+    "data_version": "0.1.0",
+    "generated_for": "AI Creator Index V0.1",
+    "snapshot_date": "2026-07-26",
+    "methodology": {
+      "recent_window_days": 92,
+      "ranking_metric": "likes",
+      "notes": "热度是一次性公开页面快照；深挖内容按相关性、热度、可溯源性与可复现空间综合选择。"
+    },
+    "evidence_rules": {
+      "A": "找到原节目、官方页面、原仓库、官方活动记录，或主张直接来自原始笔记。",
+      "B": "事件本身可核实，但具体观点来自转述或二手报道。",
+      "C": "只确认到笔记或附件，尚未找到公开、稳定的原始出处。"
+    }
+  },
+  "creators": [
+    {
+      "id": "xiaogai",
+      "display_name": "小盖",
+      "aliases": [],
+      "bio": "从 X、播客、直播和演讲中发现素材，再用强观点翻译给中文受众的科技内容创作者。",
+      "profile_summary": "发现—转述—提炼型账号；近期重点关注 Codex、Agent、安全、AI 产品与行动力。",
+      "topics": [
+        "AI Coding",
+        "Agent",
+        "AI 产品",
+        "播客",
+        "提示词",
+        "安全",
+        "Vibe Coding"
+      ],
+      "platform_accounts": [
+        {
+          "platform": "xiaohongshu",
+          "handle": "小盖",
+          "platform_id": "26284956623",
+          "profile_url": "https://xhslink.cn/m/4Huf2tL6sG3",
+          "canonical_profile_url": "https://www.xiaohongshu.com/user/profile/6720c690000000001c01b883",
+          "verified_at": "2026-07-26"
+        }
+      ],
+      "stats_snapshot": {
+        "captured_at": "2026-07-26",
+        "public_post_count": 828,
+        "earliest_public_post": "2025-01-14",
+        "latest_public_post": "2026-07-23",
+        "recent_window_days": 92,
+        "recent_post_count": 103,
+        "profile_social_proof": "1.4M次赞与收藏"
+      },
+      "editorial_takeaways": [
+        "真正值得继续做的不是复述同一素材，而是找到原始出处、验证主张并亲手跑一个可复现案例。",
+        "优先跟进 OpenClaw 垂直数字员工、先采访后执行、Codex 非编程工作流、Agent 安全和 agency/taste。"
+      ],
+      "last_verified_at": "2026-07-26"
+    }
+  ],
+  "posts": [
+    {
+      "id": "xhs-openclaw-wrapper",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": "699c650b0000000016009213",
+      "original_url": "https://www.xiaohongshu.com/explore/699c650b0000000016009213",
+      "title": "让我非常震撼的 OpenClaw 玩法",
+      "format": "image_text",
+      "published_at": "2026-02-23",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 23524,
+        "saves": 25411,
+        "comments": 3948,
+        "shares": 10156
+      },
+      "topics": [
+        "Agent",
+        "OpenClaw",
+        "AI 产品",
+        "创业"
+      ],
+      "selection_reason": "历史 AI 内容中热度与转发最强，且存在可验证的产品能力和可复现商业假设。",
+      "focus": true
+    },
+    {
+      "id": "xhs-interview-first",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": "695a1e45000000001e0215f1",
+      "original_url": "https://www.xiaohongshu.com/explore/695a1e45000000001e0215f1",
+      "title": "最近调了一个非常好用的提示词",
+      "format": "image_text",
+      "published_at": "2026-01-04",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 15171,
+        "saves": 21292,
+        "comments": 251,
+        "shares": 3517
+      },
+      "topics": [
+        "提示词",
+        "工作流",
+        "需求澄清"
+      ],
+      "selection_reason": "收藏意图极强，机制清晰，适合用 A/B 测试复现。",
+      "focus": true
+    },
+    {
+      "id": "xhs-dyson-senra",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": "6937cc24000000001b022135",
+      "original_url": "https://www.xiaohongshu.com/explore/6937cc24000000001b022135",
+      "title": "被震到了，听过含金量最高的一期职场播客",
+      "format": "image_text",
+      "published_at": "2025-12-09",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 5851,
+        "saves": 5332,
+        "comments": 74,
+        "shares": 906
+      },
+      "topics": [
+        "播客",
+        "创业",
+        "产品",
+        "迭代"
+      ],
+      "selection_reason": "原节目稳定可溯源，适合连接 AI 原型迭代与创始人反馈回路。",
+      "focus": true
+    },
+    {
+      "id": "xhs-anthropic-students",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": "6968e452000000001a02a18b",
+      "original_url": "https://www.xiaohongshu.com/explore/6968e452000000001a02a18b",
+      "title": "真心推荐大家都看看这期播客",
+      "format": "video",
+      "published_at": "2026-01-15",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 5591,
+        "saves": 6692,
+        "comments": 107,
+        "shares": 1618
+      },
+      "topics": [
+        "播客",
+        "教育",
+        "Anthropic",
+        "学习"
+      ],
+      "selection_reason": "有官方访谈与研究报告，可对照“代写式”和“学习式”AI 使用。",
+      "focus": true
+    },
+    {
+      "id": "xhs-tim-live",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": "69f214a6000000003601a674",
+      "original_url": "https://www.xiaohongshu.com/explore/69f214a6000000003601a674",
+      "title": "Tim 昨晚的直播，特别有意思",
+      "format": "video",
+      "published_at": "2026-04-29",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 8255,
+        "saves": 3260,
+        "comments": 120,
+        "shares": 505
+      },
+      "topics": [
+        "AI 视频",
+        "AI 硬件",
+        "直播"
+      ],
+      "selection_reason": "近92天热度第一，但完整直播回放未找到，适合作为 B 级案例。",
+      "focus": true
+    },
+    {
+      "id": "xhs-codex-ultimate",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": "6a46195900000000220184df",
+      "original_url": "https://www.xiaohongshu.com/explore/6a46195900000000220184df",
+      "title": "Codex 的终极使用教程",
+      "format": "image_text",
+      "published_at": "2026-07-02",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 8200,
+        "saves": 9112,
+        "comments": 184,
+        "shares": 861
+      },
+      "topics": [
+        "Codex",
+        "知识工作",
+        "AI Coding"
+      ],
+      "selection_reason": "近期收藏意图最强；官方定位可核验，但“连接 Kimi”未获官方支持验证。",
+      "focus": true
+    },
+    {
+      "id": "xhs-codex-eight-workflows",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": "6a27cfd1000000003501fa83",
+      "original_url": "https://www.xiaohongshu.com/explore/6a27cfd1000000003501fa83",
+      "title": "总结下我使用 Codex 的 8 个高频场景",
+      "format": "image_text",
+      "published_at": "2026-06-09",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 3145,
+        "saves": 5113,
+        "comments": 67,
+        "shares": 823
+      },
+      "topics": [
+        "Codex",
+        "知识工作",
+        "Skill",
+        "自动化"
+      ],
+      "selection_reason": "三个开源 Skill 均可溯源，适合拆成连续复现实验。",
+      "focus": true
+    },
+    {
+      "id": "xhs-vibe-coding-ideas",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": "6a4b9ce1000000001003ed1c",
+      "original_url": "https://www.xiaohongshu.com/explore/6a4b9ce1000000001003ed1c",
+      "title": "怎么找 Vibe Coding 的点子",
+      "format": "image_text",
+      "published_at": "2026-07-06",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 2305,
+        "saves": 1805,
+        "comments": 42,
+        "shares": 158
+      },
+      "topics": [
+        "Vibe Coding",
+        "产品",
+        "创业"
+      ],
+      "selection_reason": "方法论可复现，但“知乎 AI Works”稳定公开入口尚未找到。",
+      "focus": true
+    },
+    {
+      "id": "xhs-notion-agency",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": "6a313d7c0000000011012cdd",
+      "original_url": "https://www.xiaohongshu.com/explore/6a313d7c0000000011012cdd",
+      "title": "最近半年听过最好的一期 AI 播客",
+      "format": "video",
+      "published_at": "2026-06-16",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 1902,
+        "saves": 2337,
+        "comments": 47,
+        "shares": 500
+      },
+      "topics": [
+        "播客",
+        "Notion",
+        "Agency",
+        "Taste",
+        "产品"
+      ],
+      "selection_reason": "原节目稳定可溯源，能从金句升级成可执行训练。",
+      "focus": true
+    },
+    {
+      "id": "xhs-agent-security",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": "69f2f875000000003803561c",
+      "original_url": "https://www.xiaohongshu.com/explore/69f2f875000000003803561c",
+      "title": "最近我经历了一起 Agent 安全事故",
+      "format": "image_text",
+      "published_at": "2026-04-30",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 2009,
+        "saves": 889,
+        "comments": 70,
+        "shares": 193
+      },
+      "topics": [
+        "Agent",
+        "安全",
+        "权限",
+        "API"
+      ],
+      "selection_reason": "论坛活动可核验；事故原因只是推断，适合展示证据边界与安全清单。",
+      "focus": true
+    },
+    {
+      "id": "xhs-token-donation",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": null,
+      "original_url": null,
+      "title": "真神，有人开始给母校捐 Token 了",
+      "format": "unknown",
+      "published_at": "2026-05-14",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 5830
+      },
+      "topics": [
+        "AI",
+        "教育"
+      ],
+      "selection_reason": "近92天点赞榜第3。",
+      "focus": false
+    },
+    {
+      "id": "xhs-jensen-ai-view",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": null,
+      "original_url": null,
+      "title": "黄仁勋对 AI 的理解真的是一针见血",
+      "format": "unknown",
+      "published_at": "2026-04-30",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 5818
+      },
+      "topics": [
+        "AI",
+        "观点"
+      ],
+      "selection_reason": "近92天点赞榜第4。",
+      "focus": false
+    },
+    {
+      "id": "xhs-ma-jiaqi-ai",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": null,
+      "original_url": null,
+      "title": "马嘉祺给所有 AI 都上了一课",
+      "format": "unknown",
+      "published_at": "2026-05-11",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 5374
+      },
+      "topics": [
+        "AI",
+        "观点"
+      ],
+      "selection_reason": "近92天点赞榜第5。",
+      "focus": false
+    },
+    {
+      "id": "xhs-ai-advice-cousin",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": null,
+      "original_url": null,
+      "title": "给表妹使用 AI 的建议",
+      "format": "unknown",
+      "published_at": "2026-05-30",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 4332
+      },
+      "topics": [
+        "AI",
+        "学习"
+      ],
+      "selection_reason": "近92天点赞榜第6。",
+      "focus": false
+    },
+    {
+      "id": "xhs-bilibili-ai-square",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": null,
+      "original_url": null,
+      "title": "B 站已经变成了 AI 技术广场",
+      "format": "unknown",
+      "published_at": "2026-05-20",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 3199
+      },
+      "topics": [
+        "AI",
+        "社区"
+      ],
+      "selection_reason": "近92天点赞榜第7。",
+      "focus": false
+    },
+    {
+      "id": "xhs-codex-humanities",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": null,
+      "original_url": null,
+      "title": "Claude 封号后，我用上了文科生的 Codex",
+      "format": "unknown",
+      "published_at": "2026-06-04",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 3075
+      },
+      "topics": [
+        "Codex",
+        "知识工作"
+      ],
+      "selection_reason": "近92天点赞榜第9。",
+      "focus": false
+    },
+    {
+      "id": "xhs-agent-connectivity",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": null,
+      "original_url": null,
+      "title": "Agent 互联",
+      "format": "unknown",
+      "published_at": "2026-07-14",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 2565
+      },
+      "topics": [
+        "Agent"
+      ],
+      "selection_reason": "近92天点赞榜第10。",
+      "focus": false
+    },
+    {
+      "id": "xhs-impact-video",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": null,
+      "original_url": null,
+      "title": "迄今为止，对我影响最大的视频之一",
+      "format": "video",
+      "published_at": "2025-12-17",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 56000,
+        "approximate": true
+      },
+      "topics": [
+        "个人成长"
+      ],
+      "selection_reason": "全历史点赞榜第1；不属于本次 AI 深挖。",
+      "focus": false
+    },
+    {
+      "id": "xhs-yu-minhong",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": null,
+      "original_url": null,
+      "title": "俞敏洪这段话说的直击我心",
+      "format": "video",
+      "published_at": "2025-09-21",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 42000,
+        "approximate": true
+      },
+      "topics": [
+        "个人成长"
+      ],
+      "selection_reason": "全历史点赞榜第2；不属于本次 AI 深挖。",
+      "focus": false
+    },
+    {
+      "id": "xhs-self-respect",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": null,
+      "original_url": null,
+      "title": "也许建立自尊的一种方式",
+      "format": "unknown",
+      "published_at": "2025-04-15",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 15000,
+        "approximate": true
+      },
+      "topics": [
+        "个人成长"
+      ],
+      "selection_reason": "全历史点赞榜第5；不属于本次 AI 深挖。",
+      "focus": false
+    },
+    {
+      "id": "xhs-design-books",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": null,
+      "original_url": null,
+      "title": "提高设计审美，我会推荐三本书",
+      "format": "image_text",
+      "published_at": "2025-05-10",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 9869
+      },
+      "topics": [
+        "设计",
+        "审美",
+        "书"
+      ],
+      "selection_reason": "全历史点赞榜第6；不属于本次 AI 深挖。",
+      "focus": false
+    },
+    {
+      "id": "xhs-ai-stimulus",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": null,
+      "original_url": null,
+      "title": "不瞒大家，我昨晚被 AI 刺激到了",
+      "format": "unknown",
+      "published_at": "2026-02-17",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 9266
+      },
+      "topics": [
+        "AI"
+      ],
+      "selection_reason": "全历史点赞榜第7。",
+      "focus": false
+    },
+    {
+      "id": "xhs-relationship-video",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": null,
+      "original_url": null,
+      "title": "要是早点看到这个关于亲密关系的视频就好了",
+      "format": "video",
+      "published_at": "2025-09-09",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 9232
+      },
+      "topics": [
+        "亲密关系"
+      ],
+      "selection_reason": "全历史点赞榜第8；不属于本次 AI 深挖。",
+      "focus": false
+    },
+    {
+      "id": "xhs-openclaw-tutorials",
+      "creator_id": "xiaogai",
+      "platform": "xiaohongshu",
+      "original_id": null,
+      "original_url": null,
+      "title": "所有的龙虾教程都去见鬼吧",
+      "format": "unknown",
+      "published_at": "2026-03-10",
+      "metrics": {
+        "captured_at": "2026-07-26",
+        "likes": 8248
+      },
+      "topics": [
+        "OpenClaw",
+        "Agent"
+      ],
+      "selection_reason": "全历史点赞榜第10。",
+      "focus": false
+    }
+  ],
+  "rankings": {
+    "recent_92_days": {
+      "label": "近92天点赞 Top 10",
+      "post_ids": [
+        "xhs-tim-live",
+        "xhs-codex-ultimate",
+        "xhs-token-donation",
+        "xhs-jensen-ai-view",
+        "xhs-ma-jiaqi-ai",
+        "xhs-ai-advice-cousin",
+        "xhs-bilibili-ai-square",
+        "xhs-codex-eight-workflows",
+        "xhs-codex-humanities",
+        "xhs-agent-connectivity"
+      ]
+    },
+    "historical": {
+      "label": "全历史点赞 Top 10",
+      "post_ids": [
+        "xhs-impact-video",
+        "xhs-yu-minhong",
+        "xhs-openclaw-wrapper",
+        "xhs-interview-first",
+        "xhs-self-respect",
+        "xhs-design-books",
+        "xhs-ai-stimulus",
+        "xhs-relationship-video",
+        "xhs-tim-live",
+        "xhs-openclaw-tutorials"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "src-openclaw-site",
+      "title": "OpenClaw 官网",
+      "url": "https://openclaw.ai/",
+      "source_type": "official",
+      "evidence_grade": "A",
+      "verification_status": "已验证",
+      "verified_at": "2026-07-26",
+      "note": "验证产品与能力入口。"
+    },
+    {
+      "id": "src-openclaw-github",
+      "title": "OpenClaw 官方 GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "source_type": "official_repository",
+      "evidence_grade": "A",
+      "verification_status": "已验证",
+      "verified_at": "2026-07-26",
+      "note": "官方开源仓库。"
+    },
+    {
+      "id": "src-openclaw-automation",
+      "title": "OpenClaw Automation 文档",
+      "url": "https://docs.openclaw.ai/automation",
+      "source_type": "official_documentation",
+      "evidence_grade": "A",
+      "verification_status": "已验证",
+      "verified_at": "2026-07-26",
+      "note": "验证定时任务与自动化能力。"
+    },
+    {
+      "id": "src-openclaw-x-author",
+      "title": "OpenClaw Wrapper 附件的原始 X 作者",
+      "url": null,
+      "source_type": "unresolved",
+      "evidence_grade": "C",
+      "verification_status": "未解决",
+      "verified_at": "2026-07-26",
+      "note": "只确认到小盖笔记附件，未找到稳定公开原文。"
+    },
+    {
+      "id": "src-dyson-senra",
+      "title": "James Dyson: 5,127 Prototypes / David Senra",
+      "url": "https://youtu.be/Se64B8TKfjA",
+      "source_type": "original_program",
+      "evidence_grade": "A",
+      "verification_status": "已验证",
+      "verified_at": "2026-07-26",
+      "note": "原始访谈视频。"
+    },
+    {
+      "id": "src-anthropic-students",
+      "title": "Real AI usage stories from four college students",
+      "url": "https://www.youtube.com/watch?v=N5yJJA0NCU0",
+      "source_type": "original_program",
+      "evidence_grade": "A",
+      "verification_status": "已验证",
+      "verified_at": "2026-07-26",
+      "note": "Anthropic 官方访谈。"
+    },
+    {
+      "id": "src-claude-education",
+      "title": "Introducing Claude for Education",
+      "url": "https://www.anthropic.com/news/introducing-claude-for-education",
+      "source_type": "official",
+      "evidence_grade": "A",
+      "verification_status": "已验证",
+      "verified_at": "2026-07-26",
+      "note": "Anthropic 官方产品说明。"
+    },
+    {
+      "id": "src-anthropic-education-report",
+      "title": "Anthropic Education Report",
+      "url": "https://www.anthropic.com/research/anthropic-education-report-how-university-students-use-claude",
+      "source_type": "official_research",
+      "evidence_grade": "A",
+      "verification_status": "已验证",
+      "verified_at": "2026-07-26",
+      "note": "Anthropic 官方研究。"
+    },
+    {
+      "id": "src-tim-event-media",
+      "title": "天猫联袂影视飓风，下一代 AI 硬件如何引爆大众市场",
+      "url": "https://k.sina.cn/article_7879848900_1d5acf3c406802yvwy.html?from=tech",
+      "source_type": "secondary",
+      "evidence_grade": "B",
+      "verification_status": "部分验证",
+      "verified_at": "2026-07-26",
+      "note": "核实活动和商业合作；未找到完整稳定直播回放。"
+    },
+    {
+      "id": "src-tim-live-replay",
+      "title": "Tim × 天猫 AI 数码完整直播回放",
+      "url": null,
+      "source_type": "unresolved",
+      "evidence_grade": "C",
+      "verification_status": "未解决",
+      "verified_at": "2026-07-26",
+      "note": "未找到稳定公开入口，观点仍标记为小盖转述。"
+    },
+    {
+      "id": "src-codex-app",
+      "title": "Introducing the Codex app",
+      "url": "https://openai.com/index/introducing-the-codex-app/",
+      "source_type": "official",
+      "evidence_grade": "A",
+      "verification_status": "已验证",
+      "verified_at": "2026-07-26",
+      "note": "OpenAI 官方介绍。"
+    },
+    {
+      "id": "src-codex-use-cases",
+      "title": "Codex use cases",
+      "url": "https://developers.openai.com/codex/use-cases",
+      "source_type": "official_documentation",
+      "evidence_grade": "A",
+      "verification_status": "已验证",
+      "verified_at": "2026-07-26",
+      "note": "Codex 官方使用场景。"
+    },
+    {
+      "id": "src-codex-knowledge-work",
+      "title": "Codex for knowledge work",
+      "url": "https://openai.com/index/codex-for-knowledge-work/",
+      "source_type": "official",
+      "evidence_grade": "A",
+      "verification_status": "已验证",
+      "verified_at": "2026-07-26",
+      "note": "官方确认报告、表格、演示文稿、研究等知识工作方向。"
+    },
+    {
+      "id": "src-codex-kimi",
+      "title": "Codex 连接 Kimi 的官方支持说明",
+      "url": null,
+      "source_type": "unresolved",
+      "evidence_grade": "C",
+      "verification_status": "未解决",
+      "verified_at": "2026-07-26",
+      "note": "OpenAI 官方公开文档中未找到对应支持说明。"
+    },
+    {
+      "id": "src-excalidraw-skill",
+      "title": "Excalidraw Diagram Skill",
+      "url": "https://github.com/coleam00/excalidraw-diagram-skill",
+      "source_type": "original_repository",
+      "evidence_grade": "A",
+      "verification_status": "已验证",
+      "verified_at": "2026-07-26",
+      "note": "笔记明确给出的开源仓库。"
+    },
+    {
+      "id": "src-ian-illustrations",
+      "title": "Ian Xiaohei Illustrations",
+      "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
+      "source_type": "original_repository",
+      "evidence_grade": "A",
+      "verification_status": "已验证",
+      "verified_at": "2026-07-26",
+      "note": "笔记明确给出的开源仓库。"
+    },
+    {
+      "id": "src-note-slides",
+      "title": "Note Slides",
+      "url": "https://github.com/gainubi/note-slides",
+      "source_type": "original_repository",
+      "evidence_grade": "A",
+      "verification_status": "已验证",
+      "verified_at": "2026-07-26",
+      "note": "笔记明确给出的开源仓库。"
+    },
+    {
+      "id": "src-ai-works",
+      "title": "知乎 AI Works 稳定公开入口",
+      "url": null,
+      "source_type": "unresolved",
+      "evidence_grade": "C",
+      "verification_status": "未解决",
+      "verified_at": "2026-07-26",
+      "note": "暂未找到稳定公开入口，不提供猜测链接。"
+    },
+    {
+      "id": "src-notion-lenny",
+      "title": "Why cultivating agency matters more than cultivating skills in the AI era",
+      "url": "https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more",
+      "source_type": "original_program",
+      "evidence_grade": "A",
+      "verification_status": "已验证",
+      "verified_at": "2026-07-26",
+      "note": "Lenny's Podcast 原节目页面，嘉宾为 Notion Head of Product Max Schoening。"
+    },
+    {
+      "id": "src-notion-youtube",
+      "title": "AI era skills: Why cultivating agency matters more than job titles",
+      "url": "https://youtu.be/mCO-D3pkviM",
+      "source_type": "original_program",
+      "evidence_grade": "A",
+      "verification_status": "已验证",
+      "verified_at": "2026-07-26",
+      "note": "原节目 YouTube 版本。"
+    },
+    {
+      "id": "src-digital-china-forum",
+      "title": "第九届数字中国建设峰会“智能体创新与治理”论坛",
+      "url": "https://www.cac.gov.cn/2026-04/29/c_1779200512939516.htm",
+      "source_type": "official_event",
+      "evidence_grade": "A",
+      "verification_status": "已验证",
+      "verified_at": "2026-07-26",
+      "note": "官方活动记录。"
+    },
+    {
+      "id": "src-agent-risks",
+      "title": "防范智能体协作中的三大风险",
+      "url": "https://finance.sina.cn/stock/jdts/2026-04-29/detail-inhwesks7830964.d.html?vt=4",
+      "source_type": "secondary",
+      "evidence_grade": "B",
+      "verification_status": "部分验证",
+      "verified_at": "2026-07-26",
+      "note": "补充论坛演讲内容；事故原因仍非公开取证结论。"
+    },
+    {
+      "id": "src-xhs-interview-first",
+      "title": "小盖笔记：最近调了一个非常好用的提示词",
+      "url": "https://www.xiaohongshu.com/explore/695a1e45000000001e0215f1",
+      "source_type": "original_post",
+      "evidence_grade": "A",
+      "verification_status": "已验证",
+      "verified_at": "2026-07-26",
+      "note": "提示词原文直接出现在笔记中。"
+    },
+    {
+      "id": "src-xhs-agent-security",
+      "title": "小盖笔记：最近我经历了一起 Agent 安全事故",
+      "url": "https://www.xiaohongshu.com/explore/69f2f875000000003803561c",
+      "source_type": "original_post",
+      "evidence_grade": "B",
+      "verification_status": "部分验证",
+      "verified_at": "2026-07-26",
+      "note": "事故叙述来自当事人笔记，但“API Key 泄露”是推断。"
+    }
+  ],
+  "mentions": [
+    {
+      "id": "mention-openclaw",
+      "name": "OpenClaw",
+      "type": "product",
+      "summary": "支持渠道、Skills/Plugins、记忆、浏览器和自动化的通用 Agent；小盖关注的是把它包装成垂直数字员工。",
+      "topics": [
+        "Agent",
+        "自动化",
+        "创业"
+      ],
+      "post_ids": [
+        "xhs-openclaw-wrapper",
+        "xhs-openclaw-tutorials"
+      ],
+      "source_ids": [
+        "src-openclaw-site",
+        "src-openclaw-github",
+        "src-openclaw-automation"
+      ],
+      "evidence_grade": "A",
+      "posts": [
+        {
+          "id": "xhs-openclaw-wrapper",
+          "title": "让我非常震撼的 OpenClaw 玩法",
+          "published_at": "2026-02-23",
+          "original_url": "https://www.xiaohongshu.com/explore/699c650b0000000016009213",
+          "likes": 23524
+        },
+        {
+          "id": "xhs-openclaw-tutorials",
+          "title": "所有的龙虾教程都去见鬼吧",
+          "published_at": "2026-03-10",
+          "original_url": null,
+          "likes": 8248
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-openclaw-site",
+          "title": "OpenClaw 官网",
+          "url": "https://openclaw.ai/",
+          "source_type": "official",
+          "evidence_grade": "A",
+          "verification_status": "已验证",
+          "verified_at": "2026-07-26",
+          "note": "验证产品与能力入口。"
+        },
+        {
+          "id": "src-openclaw-github",
+          "title": "OpenClaw 官方 GitHub",
+          "url": "https://github.com/openclaw/openclaw",
+          "source_type": "official_repository",
+          "evidence_grade": "A",
+          "verification_status": "已验证",
+          "verified_at": "2026-07-26",
+          "note": "官方开源仓库。"
+        },
+        {
+          "id": "src-openclaw-automation",
+          "title": "OpenClaw Automation 文档",
+          "url": "https://docs.openclaw.ai/automation",
+          "source_type": "official_documentation",
+          "evidence_grade": "A",
+          "verification_status": "已验证",
+          "verified_at": "2026-07-26",
+          "note": "验证定时任务与自动化能力。"
+        }
+      ]
+    },
+    {
+      "id": "mention-openclaw-wrapper-x",
+      "name": "OpenClaw Wrapper 原始 X 帖",
+      "type": "article",
+      "summary": "小盖附件中出现的五类垂直 Wrapper 构想，其公开稳定原文作者尚未确认。",
+      "topics": [
+        "Agent",
+        "创业"
+      ],
+      "post_ids": [
+        "xhs-openclaw-wrapper"
+      ],
+      "source_ids": [
+        "src-openclaw-x-author"
+      ],
+      "evidence_grade": "C",
+      "posts": [
+        {
+          "id": "xhs-openclaw-wrapper",
+          "title": "让我非常震撼的 OpenClaw 玩法",
+          "published_at": "2026-02-23",
+          "original_url": "https://www.xiaohongshu.com/explore/699c650b0000000016009213",
+          "likes": 23524
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-openclaw-x-author",
+          "title": "OpenClaw Wrapper 附件的原始 X 作者",
+          "url": null,
+          "source_type": "unresolved",
+          "evidence_grade": "C",
+          "verification_status": "未解决",
+          "verified_at": "2026-07-26",
+          "note": "只确认到小盖笔记附件，未找到稳定公开原文。"
+        }
+      ]
+    },
+    {
+      "id": "mention-interview-first-prompt",
+      "name": "先采访、后执行提示词",
+      "type": "prompt",
+      "summary": "先结构后细节、一次一个问题、允许追问、最多20问，再围绕结果执行。",
+      "topics": [
+        "提示词",
+        "需求澄清"
+      ],
+      "post_ids": [
+        "xhs-interview-first"
+      ],
+      "source_ids": [
+        "src-xhs-interview-first"
+      ],
+      "evidence_grade": "A",
+      "posts": [
+        {
+          "id": "xhs-interview-first",
+          "title": "最近调了一个非常好用的提示词",
+          "published_at": "2026-01-04",
+          "original_url": "https://www.xiaohongshu.com/explore/695a1e45000000001e0215f1",
+          "likes": 15171
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-xhs-interview-first",
+          "title": "小盖笔记：最近调了一个非常好用的提示词",
+          "url": "https://www.xiaohongshu.com/explore/695a1e45000000001e0215f1",
+          "source_type": "original_post",
+          "evidence_grade": "A",
+          "verification_status": "已验证",
+          "verified_at": "2026-07-26",
+          "note": "提示词原文直接出现在笔记中。"
+        }
+      ]
+    },
+    {
+      "id": "mention-dyson-senra",
+      "name": "James Dyson × David Senra",
+      "type": "podcast",
+      "summary": "围绕5,127次原型、失败反馈、招聘与创始人保持亲手做的访谈。",
+      "topics": [
+        "播客",
+        "迭代",
+        "创业"
+      ],
+      "post_ids": [
+        "xhs-dyson-senra"
+      ],
+      "source_ids": [
+        "src-dyson-senra"
+      ],
+      "evidence_grade": "A",
+      "posts": [
+        {
+          "id": "xhs-dyson-senra",
+          "title": "被震到了，听过含金量最高的一期职场播客",
+          "published_at": "2025-12-09",
+          "original_url": "https://www.xiaohongshu.com/explore/6937cc24000000001b022135",
+          "likes": 5851
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-dyson-senra",
+          "title": "James Dyson: 5,127 Prototypes / David Senra",
+          "url": "https://youtu.be/Se64B8TKfjA",
+          "source_type": "original_program",
+          "evidence_grade": "A",
+          "verification_status": "已验证",
+          "verified_at": "2026-07-26",
+          "note": "原始访谈视频。"
+        }
+      ]
+    },
+    {
+      "id": "mention-anthropic-students",
+      "name": "Anthropic 四名大学生 AI 使用访谈",
+      "type": "podcast",
+      "summary": "对比把 AI 当代写捷径和苏格拉底式学习伙伴的四个真实案例。",
+      "topics": [
+        "播客",
+        "教育",
+        "Anthropic"
+      ],
+      "post_ids": [
+        "xhs-anthropic-students"
+      ],
+      "source_ids": [
+        "src-anthropic-students"
+      ],
+      "evidence_grade": "A",
+      "posts": [
+        {
+          "id": "xhs-anthropic-students",
+          "title": "真心推荐大家都看看这期播客",
+          "published_at": "2026-01-15",
+          "original_url": "https://www.xiaohongshu.com/explore/6968e452000000001a02a18b",
+          "likes": 5591
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-anthropic-students",
+          "title": "Real AI usage stories from four college students",
+          "url": "https://www.youtube.com/watch?v=N5yJJA0NCU0",
+          "source_type": "original_program",
+          "evidence_grade": "A",
+          "verification_status": "已验证",
+          "verified_at": "2026-07-26",
+          "note": "Anthropic 官方访谈。"
+        }
+      ]
+    },
+    {
+      "id": "mention-claude-education",
+      "name": "Claude for Education",
+      "type": "product",
+      "summary": "Anthropic 面向教育场景的官方产品与学习模式说明。",
+      "topics": [
+        "教育",
+        "Anthropic"
+      ],
+      "post_ids": [
+        "xhs-anthropic-students"
+      ],
+      "source_ids": [
+        "src-claude-education"
+      ],
+      "evidence_grade": "A",
+      "posts": [
+        {
+          "id": "xhs-anthropic-students",
+          "title": "真心推荐大家都看看这期播客",
+          "published_at": "2026-01-15",
+          "original_url": "https://www.xiaohongshu.com/explore/6968e452000000001a02a18b",
+          "likes": 5591
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-claude-education",
+          "title": "Introducing Claude for Education",
+          "url": "https://www.anthropic.com/news/introducing-claude-for-education",
+          "source_type": "official",
+          "evidence_grade": "A",
+          "verification_status": "已验证",
+          "verified_at": "2026-07-26",
+          "note": "Anthropic 官方产品说明。"
+        }
+      ]
+    },
+    {
+      "id": "mention-anthropic-education-report",
+      "name": "Anthropic Education Report",
+      "type": "paper",
+      "summary": "Anthropic 关于大学生如何使用 Claude 的官方研究。",
+      "topics": [
+        "教育",
+        "研究",
+        "Anthropic"
+      ],
+      "post_ids": [
+        "xhs-anthropic-students"
+      ],
+      "source_ids": [
+        "src-anthropic-education-report"
+      ],
+      "evidence_grade": "A",
+      "posts": [
+        {
+          "id": "xhs-anthropic-students",
+          "title": "真心推荐大家都看看这期播客",
+          "published_at": "2026-01-15",
+          "original_url": "https://www.xiaohongshu.com/explore/6968e452000000001a02a18b",
+          "likes": 5591
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-anthropic-education-report",
+          "title": "Anthropic Education Report",
+          "url": "https://www.anthropic.com/research/anthropic-education-report-how-university-students-use-claude",
+          "source_type": "official_research",
+          "evidence_grade": "A",
+          "verification_status": "已验证",
+          "verified_at": "2026-07-26",
+          "note": "Anthropic 官方研究。"
+        }
+      ]
+    },
+    {
+      "id": "mention-tim-live",
+      "name": "Tim × 天猫 AI 数码新品发布盛典",
+      "type": "event",
+      "summary": "2026-04-28商业合作直播；活动可核实，完整回放与逐字观点未找到。",
+      "topics": [
+        "AI 视频",
+        "AI 硬件",
+        "直播"
+      ],
+      "post_ids": [
+        "xhs-tim-live"
+      ],
+      "source_ids": [
+        "src-tim-event-media",
+        "src-tim-live-replay"
+      ],
+      "evidence_grade": "B",
+      "posts": [
+        {
+          "id": "xhs-tim-live",
+          "title": "Tim 昨晚的直播，特别有意思",
+          "published_at": "2026-04-29",
+          "original_url": "https://www.xiaohongshu.com/explore/69f214a6000000003601a674",
+          "likes": 8255
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-tim-event-media",
+          "title": "天猫联袂影视飓风，下一代 AI 硬件如何引爆大众市场",
+          "url": "https://k.sina.cn/article_7879848900_1d5acf3c406802yvwy.html?from=tech",
+          "source_type": "secondary",
+          "evidence_grade": "B",
+          "verification_status": "部分验证",
+          "verified_at": "2026-07-26",
+          "note": "核实活动和商业合作；未找到完整稳定直播回放。"
+        },
+        {
+          "id": "src-tim-live-replay",
+          "title": "Tim × 天猫 AI 数码完整直播回放",
+          "url": null,
+          "source_type": "unresolved",
+          "evidence_grade": "C",
+          "verification_status": "未解决",
+          "verified_at": "2026-07-26",
+          "note": "未找到稳定公开入口，观点仍标记为小盖转述。"
+        }
+      ]
+    },
+    {
+      "id": "mention-codex",
+      "name": "Codex",
+      "type": "product",
+      "summary": "不只写代码，也覆盖研究、报告、表格、演示文稿和其他知识工作。",
+      "topics": [
+        "Codex",
+        "知识工作",
+        "AI Coding"
+      ],
+      "post_ids": [
+        "xhs-codex-ultimate",
+        "xhs-codex-eight-workflows",
+        "xhs-codex-humanities"
+      ],
+      "source_ids": [
+        "src-codex-app",
+        "src-codex-use-cases",
+        "src-codex-knowledge-work"
+      ],
+      "evidence_grade": "A",
+      "posts": [
+        {
+          "id": "xhs-codex-ultimate",
+          "title": "Codex 的终极使用教程",
+          "published_at": "2026-07-02",
+          "original_url": "https://www.xiaohongshu.com/explore/6a46195900000000220184df",
+          "likes": 8200
+        },
+        {
+          "id": "xhs-codex-eight-workflows",
+          "title": "总结下我使用 Codex 的 8 个高频场景",
+          "published_at": "2026-06-09",
+          "original_url": "https://www.xiaohongshu.com/explore/6a27cfd1000000003501fa83",
+          "likes": 3145
+        },
+        {
+          "id": "xhs-codex-humanities",
+          "title": "Claude 封号后，我用上了文科生的 Codex",
+          "published_at": "2026-06-04",
+          "original_url": null,
+          "likes": 3075
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-codex-app",
+          "title": "Introducing the Codex app",
+          "url": "https://openai.com/index/introducing-the-codex-app/",
+          "source_type": "official",
+          "evidence_grade": "A",
+          "verification_status": "已验证",
+          "verified_at": "2026-07-26",
+          "note": "OpenAI 官方介绍。"
+        },
+        {
+          "id": "src-codex-use-cases",
+          "title": "Codex use cases",
+          "url": "https://developers.openai.com/codex/use-cases",
+          "source_type": "official_documentation",
+          "evidence_grade": "A",
+          "verification_status": "已验证",
+          "verified_at": "2026-07-26",
+          "note": "Codex 官方使用场景。"
+        },
+        {
+          "id": "src-codex-knowledge-work",
+          "title": "Codex for knowledge work",
+          "url": "https://openai.com/index/codex-for-knowledge-work/",
+          "source_type": "official",
+          "evidence_grade": "A",
+          "verification_status": "已验证",
+          "verified_at": "2026-07-26",
+          "note": "官方确认报告、表格、演示文稿、研究等知识工作方向。"
+        }
+      ]
+    },
+    {
+      "id": "mention-codex-kimi",
+      "name": "Codex 连接 Kimi",
+      "type": "workflow",
+      "summary": "小盖笔记中的配置步骤；未在 OpenAI 官方公开文档中找到支持说明。",
+      "topics": [
+        "Codex",
+        "Kimi"
+      ],
+      "post_ids": [
+        "xhs-codex-ultimate"
+      ],
+      "source_ids": [
+        "src-codex-kimi"
+      ],
+      "evidence_grade": "C",
+      "posts": [
+        {
+          "id": "xhs-codex-ultimate",
+          "title": "Codex 的终极使用教程",
+          "published_at": "2026-07-02",
+          "original_url": "https://www.xiaohongshu.com/explore/6a46195900000000220184df",
+          "likes": 8200
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-codex-kimi",
+          "title": "Codex 连接 Kimi 的官方支持说明",
+          "url": null,
+          "source_type": "unresolved",
+          "evidence_grade": "C",
+          "verification_status": "未解决",
+          "verified_at": "2026-07-26",
+          "note": "OpenAI 官方公开文档中未找到对应支持说明。"
+        }
+      ]
+    },
+    {
+      "id": "mention-excalidraw-skill",
+      "name": "Excalidraw Diagram Skill",
+      "type": "open_source",
+      "summary": "用于生成 Excalidraw 流程图和架构图的开源 Skill。",
+      "topics": [
+        "Skill",
+        "配图",
+        "开源"
+      ],
+      "post_ids": [
+        "xhs-codex-eight-workflows"
+      ],
+      "source_ids": [
+        "src-excalidraw-skill"
+      ],
+      "evidence_grade": "A",
+      "posts": [
+        {
+          "id": "xhs-codex-eight-workflows",
+          "title": "总结下我使用 Codex 的 8 个高频场景",
+          "published_at": "2026-06-09",
+          "original_url": "https://www.xiaohongshu.com/explore/6a27cfd1000000003501fa83",
+          "likes": 3145
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-excalidraw-skill",
+          "title": "Excalidraw Diagram Skill",
+          "url": "https://github.com/coleam00/excalidraw-diagram-skill",
+          "source_type": "original_repository",
+          "evidence_grade": "A",
+          "verification_status": "已验证",
+          "verified_at": "2026-07-26",
+          "note": "笔记明确给出的开源仓库。"
+        }
+      ]
+    },
+    {
+      "id": "mention-ian-illustrations",
+      "name": "Ian Xiaohei Illustrations",
+      "type": "open_source",
+      "summary": "小盖在 Codex 配图工作流中给出的手绘插图开源项目。",
+      "topics": [
+        "Skill",
+        "配图",
+        "开源"
+      ],
+      "post_ids": [
+        "xhs-codex-eight-workflows"
+      ],
+      "source_ids": [
+        "src-ian-illustrations"
+      ],
+      "evidence_grade": "A",
+      "posts": [
+        {
+          "id": "xhs-codex-eight-workflows",
+          "title": "总结下我使用 Codex 的 8 个高频场景",
+          "published_at": "2026-06-09",
+          "original_url": "https://www.xiaohongshu.com/explore/6a27cfd1000000003501fa83",
+          "likes": 3145
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-ian-illustrations",
+          "title": "Ian Xiaohei Illustrations",
+          "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
+          "source_type": "original_repository",
+          "evidence_grade": "A",
+          "verification_status": "已验证",
+          "verified_at": "2026-07-26",
+          "note": "笔记明确给出的开源仓库。"
+        }
+      ]
+    },
+    {
+      "id": "mention-note-slides",
+      "name": "Note Slides",
+      "type": "open_source",
+      "summary": "把笔记或长文转换为 Slides 的开源项目。",
+      "topics": [
+        "Skill",
+        "Slides",
+        "开源"
+      ],
+      "post_ids": [
+        "xhs-codex-eight-workflows"
+      ],
+      "source_ids": [
+        "src-note-slides"
+      ],
+      "evidence_grade": "A",
+      "posts": [
+        {
+          "id": "xhs-codex-eight-workflows",
+          "title": "总结下我使用 Codex 的 8 个高频场景",
+          "published_at": "2026-06-09",
+          "original_url": "https://www.xiaohongshu.com/explore/6a27cfd1000000003501fa83",
+          "likes": 3145
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-note-slides",
+          "title": "Note Slides",
+          "url": "https://github.com/gainubi/note-slides",
+          "source_type": "original_repository",
+          "evidence_grade": "A",
+          "verification_status": "已验证",
+          "verified_at": "2026-07-26",
+          "note": "笔记明确给出的开源仓库。"
+        }
+      ]
+    },
+    {
+      "id": "mention-ai-works",
+      "name": "知乎 AI Works",
+      "type": "platform",
+      "summary": "小盖提到的新产品展示入口；稳定公开入口尚未找到。",
+      "topics": [
+        "Vibe Coding",
+        "产品发现"
+      ],
+      "post_ids": [
+        "xhs-vibe-coding-ideas"
+      ],
+      "source_ids": [
+        "src-ai-works"
+      ],
+      "evidence_grade": "C",
+      "posts": [
+        {
+          "id": "xhs-vibe-coding-ideas",
+          "title": "怎么找 Vibe Coding 的点子",
+          "published_at": "2026-07-06",
+          "original_url": "https://www.xiaohongshu.com/explore/6a4b9ce1000000001003ed1c",
+          "likes": 2305
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-ai-works",
+          "title": "知乎 AI Works 稳定公开入口",
+          "url": null,
+          "source_type": "unresolved",
+          "evidence_grade": "C",
+          "verification_status": "未解决",
+          "verified_at": "2026-07-26",
+          "note": "暂未找到稳定公开入口，不提供猜测链接。"
+        }
+      ]
+    },
+    {
+      "id": "mention-notion-agency",
+      "name": "Max Schoening × Lenny's Podcast",
+      "type": "podcast",
+      "summary": "Notion 产品负责人谈 agency、taste、tiny core 与“前10%免费、最后10%最难”。",
+      "topics": [
+        "播客",
+        "Notion",
+        "Agency",
+        "Taste",
+        "产品"
+      ],
+      "post_ids": [
+        "xhs-notion-agency"
+      ],
+      "source_ids": [
+        "src-notion-lenny",
+        "src-notion-youtube"
+      ],
+      "evidence_grade": "A",
+      "posts": [
+        {
+          "id": "xhs-notion-agency",
+          "title": "最近半年听过最好的一期 AI 播客",
+          "published_at": "2026-06-16",
+          "original_url": "https://www.xiaohongshu.com/explore/6a313d7c0000000011012cdd",
+          "likes": 1902
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-notion-lenny",
+          "title": "Why cultivating agency matters more than cultivating skills in the AI era",
+          "url": "https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more",
+          "source_type": "original_program",
+          "evidence_grade": "A",
+          "verification_status": "已验证",
+          "verified_at": "2026-07-26",
+          "note": "Lenny's Podcast 原节目页面，嘉宾为 Notion Head of Product Max Schoening。"
+        },
+        {
+          "id": "src-notion-youtube",
+          "title": "AI era skills: Why cultivating agency matters more than job titles",
+          "url": "https://youtu.be/mCO-D3pkviM",
+          "source_type": "original_program",
+          "evidence_grade": "A",
+          "verification_status": "已验证",
+          "verified_at": "2026-07-26",
+          "note": "原节目 YouTube 版本。"
+        }
+      ]
+    },
+    {
+      "id": "mention-agent-governance-forum",
+      "name": "智能体创新与治理论坛",
+      "type": "event",
+      "summary": "数字中国建设峰会官方论坛，讨论跨 Agent 身份、意图、委托权限与审计。",
+      "topics": [
+        "Agent",
+        "安全",
+        "治理"
+      ],
+      "post_ids": [
+        "xhs-agent-security"
+      ],
+      "source_ids": [
+        "src-digital-china-forum",
+        "src-agent-risks"
+      ],
+      "evidence_grade": "A",
+      "posts": [
+        {
+          "id": "xhs-agent-security",
+          "title": "最近我经历了一起 Agent 安全事故",
+          "published_at": "2026-04-30",
+          "original_url": "https://www.xiaohongshu.com/explore/69f2f875000000003803561c",
+          "likes": 2009
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-digital-china-forum",
+          "title": "第九届数字中国建设峰会“智能体创新与治理”论坛",
+          "url": "https://www.cac.gov.cn/2026-04/29/c_1779200512939516.htm",
+          "source_type": "official_event",
+          "evidence_grade": "A",
+          "verification_status": "已验证",
+          "verified_at": "2026-07-26",
+          "note": "官方活动记录。"
+        },
+        {
+          "id": "src-agent-risks",
+          "title": "防范智能体协作中的三大风险",
+          "url": "https://finance.sina.cn/stock/jdts/2026-04-29/detail-inhwesks7830964.d.html?vt=4",
+          "source_type": "secondary",
+          "evidence_grade": "B",
+          "verification_status": "部分验证",
+          "verified_at": "2026-07-26",
+          "note": "补充论坛演讲内容；事故原因仍非公开取证结论。"
+        }
+      ]
+    },
+    {
+      "id": "mention-agent-security-incident",
+      "name": "Agent 开放社区额度耗尽事故",
+      "type": "event",
+      "summary": "小盖两次遇到 Kimi API 额度耗尽并轮换密钥；Key 泄露是其推断，不是公开取证结论。",
+      "topics": [
+        "Agent",
+        "安全",
+        "API"
+      ],
+      "post_ids": [
+        "xhs-agent-security"
+      ],
+      "source_ids": [
+        "src-xhs-agent-security",
+        "src-agent-risks"
+      ],
+      "evidence_grade": "B",
+      "posts": [
+        {
+          "id": "xhs-agent-security",
+          "title": "最近我经历了一起 Agent 安全事故",
+          "published_at": "2026-04-30",
+          "original_url": "https://www.xiaohongshu.com/explore/69f2f875000000003803561c",
+          "likes": 2009
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-xhs-agent-security",
+          "title": "小盖笔记：最近我经历了一起 Agent 安全事故",
+          "url": "https://www.xiaohongshu.com/explore/69f2f875000000003803561c",
+          "source_type": "original_post",
+          "evidence_grade": "B",
+          "verification_status": "部分验证",
+          "verified_at": "2026-07-26",
+          "note": "事故叙述来自当事人笔记，但“API Key 泄露”是推断。"
+        },
+        {
+          "id": "src-agent-risks",
+          "title": "防范智能体协作中的三大风险",
+          "url": "https://finance.sina.cn/stock/jdts/2026-04-29/detail-inhwesks7830964.d.html?vt=4",
+          "source_type": "secondary",
+          "evidence_grade": "B",
+          "verification_status": "部分验证",
+          "verified_at": "2026-07-26",
+          "note": "补充论坛演讲内容；事故原因仍非公开取证结论。"
+        }
+      ]
+    }
+  ]
+}
